@@ -1,10 +1,6 @@
-Hi Tehre, my name is Everson Rubira
+Hi everyone, my name is Everson Rubira
 
 - 🌱 After Python, nowadays I’m currently learning Golang languages;
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
 
 -->
 
@@ -30,4 +26,5 @@ Hi Tehre, my name is Everson Rubira
 
    <div> 
      
-   <a href="https://www.linkedin.com/in/eversonrubira/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:eversonrubira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  
