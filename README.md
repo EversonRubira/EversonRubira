@@ -1,6 +1,6 @@
 Hi everyone, my name is Everson Rubira
 
-- 🌱 After Python, nowadays I’m currently learning Golang languages;
+-  Please feel free to give some suggestions, helps, ideas and etc...
 
 
 
@@ -28,4 +28,4 @@ Hi everyone, my name is Everson Rubira
    <div> 
      
   <a href = "mailto:eversonrubira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  
+   <a href="www.linkedin.com/in/eversonrubira" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
