@@ -1,4 +1,4 @@
-<h1 align="left">Hi eveyone <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px">, I'm Everson Rubira</h1> 
+<h1 align="left">Hi everyone<img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="25px">, I'm Everson Rubira</h1> 
 
 -  Please feel free to give some suggestions, helps, ideas and etc...
 
