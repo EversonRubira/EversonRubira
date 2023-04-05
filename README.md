@@ -1,4 +1,4 @@
-<h1 align="left">Hi everyone<img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="25px">, I'm Everson Rubira</h1> 
+<h1 align="left">Hi everyone<img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="20px">, I'm Everson Rubira</h1> 
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=yellow" alt="Profile views" /> </p>
@@ -20,18 +20,12 @@
   <img align="center" alt="Everson-Github" height="33" width="43" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" /> 
     
   
-
-
-
- 
    </div>
   
 ##
 
    <div> 
-     
-  <a href = "mailto:eversonrubira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  
+ 
      ## Contact
 
 </a>
@@ -45,3 +39,5 @@
  <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=instagram" alt="instagram"/>
 </a>
 </p>
+ <a href = "mailto:eversonrubira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  
