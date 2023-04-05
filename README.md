@@ -1,7 +1,8 @@
 <h1 align="left">Hi, I'm Everson Rubira</h1> 
 
 
-- I am programming student, these are some project in some stacks
+- I am programming student, these are some project in some stacks that I have been studying.
+
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=yellow" alt="Profile views" /> </p>
@@ -34,8 +35,7 @@
   
 </div>
   
-
-<div> 
+<div>
 
   
 <div>  
@@ -44,7 +44,7 @@
 
 <div>
   
-  
+<div>  
   
 </a>
 <a href="https://twitter.com/eversonrubira" target="_blank">
@@ -57,6 +57,7 @@
 <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=instagram" alt="instagram"/>
 </a>
 </p>
-
+<div>
+  
 <a href = "mailto:eversonrubira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   
