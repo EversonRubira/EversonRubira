@@ -1,3 +1,6 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=yellow" alt="Profile views" /> </p>
+
+
 <h1 align="left">Hi, I'm Everson Rubira</h1> 
 
 
@@ -5,14 +8,19 @@
 
 - Lifelong learning...
 
+<div>
+ 
+  
+  
+<div>  
 
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=yellow" alt="Profile views" /> </p>
 
 
 ### ⚙️ &nbsp;GitHub Analytics
 
 
+  
+</div>
 <div align="center">
   <a href="https://github.com/EversonRubira">
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=eversonrubira&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
