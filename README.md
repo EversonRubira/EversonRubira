@@ -1,6 +1,6 @@
 <h1 align="left">Hi everyone<img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="25px">, I'm Everson Rubira</h1> 
 
--  Please feel free to give some suggestions, helps, ideas and etc...
+-  Please feel free to give some suggestions, ideas and etc...
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=yellow" alt="Profile views" /> </p>
 
@@ -18,6 +18,8 @@
   <img align="center" alt="Everson-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Everson-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Everson-Github" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+    
+    
   <img align="center" alt="Everson-Github" height="33" width="43" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
 
 
