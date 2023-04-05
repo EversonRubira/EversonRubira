@@ -8,7 +8,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=yellow" alt="Profile views" /> </p>
 
 
-## ⚙️ &nbsp;GitHub Analytics
+### ⚙️ &nbsp;GitHub Analytics
 
 
 <div align="center">
@@ -19,7 +19,7 @@
   
   
   
-## 🛠 &nbsp;Tech Stack
+### 🛠 &nbsp;Tech Stack
   
   
   <div style="display: inline_block"><br>
@@ -40,7 +40,7 @@
   
 <div>  
 
-  ## Contact
+ ### Contact
 
 <div>
   
