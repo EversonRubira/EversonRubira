@@ -3,6 +3,8 @@
 
 - I am programming student, these are some project in some stacks that I have been studying.
 
+- Lifelong learning...
+
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=yellow" alt="Profile views" /> </p>
