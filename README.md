@@ -1,6 +1,5 @@
 <h1 align="left">Hi everyone<img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="25px">, I'm Everson Rubira</h1> 
 
--  Please feel free to give some suggestions, ideas and etc...
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=yellow" alt="Profile views" /> </p>
 
@@ -32,4 +31,17 @@
    <div> 
      
   <a href = "mailto:eversonrubira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-   <a href="https://www.linkedin.com/in/eversonrubira" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  
+     ## Contact
+
+</a>
+<a href="https://twitter.com/eversonrubira" target="_blank">
+  <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=twitter" alt="twitter"/>  
+</a>
+<a href="https://linkedin.com/in/eversonrubira" target="_blank">
+  <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=linkedin" alt="linkedin"/>
+</a>
+<a href="https://instagram.com/eversonrubira" target="_blank">
+ <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=instagram" alt="instagram"/>
+</a>
+</p>
