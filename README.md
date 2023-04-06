@@ -18,6 +18,8 @@
 
 ### ⚙️ &nbsp;GitHub Analytics
 
+<br />
+
 
   
 </div>
@@ -30,8 +32,8 @@
   
   
 ### 🛠 &nbsp;Tech Stack
-  
-  
+ 
+    
   <div style="display: inline_block"><br>
   <img align="center" alt="Everson-Github" height="33" width="43" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"/>
   <img align="center" alt="Everson-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
@@ -44,30 +46,27 @@
    
   
 </div>
-  
-<div>
 
   
-<div>  
+<br />
+ 
+ 
+ ###  Contact
+ 
+<br />
+ 
 
-###  Contact
-
-<div>
-  
-<div>  
-  
-</a>
 <a href="https://twitter.com/Everson_Rubira" target="_blank">
-<img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=twitter" alt="twitter"/>  
+<img align="center"src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=twitter" alt="twitter"/>  
 </a>
 <a href="https://linkedin.com/in/eversonrubira" target="_blank">
-<img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=linkedin" alt="linkedin"/>
+<img align="center"src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=linkedin" alt="linkedin"/>
 </a>
 <a href="https://instagram.com/everson_rubira" target="_blank">
-<img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=instagram" alt="instagram"/>
+<img align="center"src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=instagram" alt="instagram"/>
 </a>
 <a href="mailto:eversonrubira@gmail.com" target="_blank">
-<img align="center" src="https://img.shields.io/badge/-gmail-05122A?style=flat&logo=gmail&logoColor=Red" alt="gmail">
+<img align="center"src="https://img.shields.io/badge/-gmail-05122A?style=flat&logo=gmail&logoColor=Red" alt="gmail">
 </a> 
 </p>
 <div>
