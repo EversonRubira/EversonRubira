@@ -8,12 +8,11 @@
 
 - Lifelong learning...
 
-<div>
- 
-  
-  
-<div>  
 
+<br />
+ 
+ 
+<br />
 
 
 ### ⚙️ &nbsp;GitHub Analytics
@@ -34,7 +33,7 @@
 ### 🛠 &nbsp;Tech Stack
  
     
-  <div style="display: inline_block"><br>
+  <div style="display: inline_block">
   <img align="center" alt="Everson-Github" height="33" width="43" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"/>
   <img align="center" alt="Everson-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="Everson-go" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"/>
@@ -42,19 +41,19 @@
   <img align="center" alt="Everson-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Everson-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Everson-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Everson-Github" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"/>  
+  <img align="center" alt="Everson-Github" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"/>
+<br />  
    
   
-</div>
+
 
   
 <br />
  
  
- ###  Contact
+### ☏ &nbsp;Contact
  
-<br />
- 
+
 
 <a href="https://twitter.com/Everson_Rubira" target="_blank">
 <img align="center"src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=twitter" alt="twitter"/>  
