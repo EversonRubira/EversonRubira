@@ -63,7 +63,7 @@
 <a href="https://linkedin.com/in/eversonrubira" target="_blank">
 <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=linkedin" alt="linkedin"/>
 </a>
-<a href="https://instagram.com/eversonrubira" target="_blank">
+<a href="https://instagram.com/everson_rubira" target="_blank">
 <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=instagram" alt="instagram"/>
 </a>
 </p>
