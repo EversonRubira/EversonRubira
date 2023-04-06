@@ -58,7 +58,7 @@
   
 </a>
 <a href="https://twitter.com/Everson_Rubira" target="_blank">
-<img align="center" src="https://img.shields.io/badge/-Everson_Rubira-05122A?style=flat&logo=twitter" alt="twitter"/>  
+<img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=twitter" alt="twitter"/>  
 </a>
 <a href="https://linkedin.com/in/eversonrubira" target="_blank">
 <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=linkedin" alt="linkedin"/>
