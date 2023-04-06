@@ -50,7 +50,7 @@
   
 <div>  
 
- ### Contact
+###  Contact
 
 <div>
   
@@ -66,8 +66,11 @@
 <a href="https://instagram.com/everson_rubira" target="_blank">
 <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=instagram" alt="instagram"/>
 </a>
+<a href="mailto:eversonrubira@gmail.com" target="_blank">
+<img align="center" src="https://img.shields.io/badge/-gmail-05122A?style=flat&logo=gmail&logoColor=Red" alt="gmail">
+</a> 
 </p>
 <div>
   
-<a href = "mailto:eversonrubira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=Red" target="_blank"></a>
+
   
