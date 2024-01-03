@@ -4,7 +4,7 @@
 <h1 align="left">Hi, I'm Everson Rubira</h1> 
 
 
-- I am programming student, here i  have some projects in some stacks that I have been studying.
+- I am programming student, here I  have some projects in some stacks that I have been studying.
 
 - Lifelong learning...
 
