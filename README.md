@@ -4,9 +4,8 @@
 <h1 align="left">Hi, I'm Everson Rubira</h1> 
 
 
-- I am programming student, here I  have some projects in some stacks that I have been studying.
-
-- Lifelong learning...
+- I'm programming student in constant evolution, showcasing projects in various technologies I've been exploring.
+- Committed to lifelong learning.
 
 
 <br />
