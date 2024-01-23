@@ -5,11 +5,8 @@
 
 
 - I'm programming student in constant evolution, showcasing projects in various technologies I've been exploring.
-- Committed to lifelong learning.
-
 
 <br />
- 
  
 <br />
 
