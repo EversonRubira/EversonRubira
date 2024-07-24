@@ -1,4 +1,4 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=red" alt="Profile views" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=green" alt="Profile views" /> </p>
 
 
 <h1 align="left">Hi, I'm Everson Rubira</h1> 
