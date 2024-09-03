@@ -1,20 +1,19 @@
 <p align="center"> 
   <img src="https://komarev.com/ghpvc/?username=eversonrubira&color=blue" alt="Profile views" /> 
 </p>
-
-<p align="center">
+<br />
+<p>
 I'm a Systems Development student at Setúbal Polytechnic, always learning and passionate about coding. On this page, you can see some of the projects I've been working on as I explore different technologies. My goal is to improve my skills and create useful solutions.
 </p>
 <br />
 
-
 <p align="center">
  
-- **Java**: Learning how to build strong applications with object-oriented programming.
-- **JavaScript**: Making websites more dynamic and interactive.
-- **Python**: Automating tasks and starting with data analysis.
-- **Go**: Learning about efficient programming and system design.
-- **SQL/MySQL**: Managing and organizing data.
+  - **Java**: Learning how to build strong applications with object-oriented programming.
+  - **JavaScript**: Making websites more dynamic and interactive.
+  - **Python**: Automating tasks and starting with data analysis.
+  - **Go**: Learning about efficient programming and system design.
+  - **SQL/MySQL**: Managing and organizing data.
 
 </p>
 
