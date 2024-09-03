@@ -5,16 +5,19 @@
 <p align="center">
 I'm a Systems Development student at Setúbal Polytechnic, always learning and passionate about coding. On this page, you can see some of the projects I've been working on as I explore different technologies. My goal is to improve my skills and create useful solutions.
 </p>
+<br />
 
-<div align="center">
-  <ul style="list-style-position: inside; text-align: left; display: inline-block;">
-    <li><strong>Java</strong>: Learning how to build strong applications with object-oriented programming.</li>
-    <li><strong>JavaScript</strong>: Making websites more dynamic and interactive.</li>
-    <li><strong>Python</strong>: Automating tasks and starting with data analysis.</li>
-    <li><strong>Go</strong>: Learning about efficient programming and system design.</li>
-    <li><strong>SQL/MySQL</strong>: Managing and organizing data.</li>
-  </ul>
-</div>
+
+<p align="center">
+ 
+- **Java**: Learning how to build strong applications with object-oriented programming.
+- **JavaScript**: Making websites more dynamic and interactive.
+- **Python**: Automating tasks and starting with data analysis.
+- **Go**: Learning about efficient programming and system design.
+- **SQL/MySQL**: Managing and organizing data.
+
+</p>
+
 
 
 
@@ -47,9 +50,6 @@ I'm a Systems Development student at Setúbal Polytechnic, always learning and p
 ### ☏ &nbsp;Contact
 
 <div align="center">
-  <a href="https://twitter.com/Everson_Rubira" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=twitter" alt="twitter"/>  
-  </a>
   <a href="https://linkedin.com/in/eversonrubira" target="_blank">
     <img align="center" src="https://img.shields.io/badge/-eversonrubira-05122A?style=flat&logo=linkedin" alt="linkedin"/>
   </a>
@@ -60,7 +60,5 @@ I'm a Systems Development student at Setúbal Polytechnic, always learning and p
     <img align="center" src="https://img.shields.io/badge/-gmail-05122A?style=flat&logo=gmail&logoColor=Red" alt="gmail">
   </a> 
 </div>
-
-  
 
   
