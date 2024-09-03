@@ -6,13 +6,12 @@
 
 I'm a Systems Development student at Setúbal Polytechnic, always learning and passionate about coding. On this page, you can see some of the projects I've been working on as I explore different technologies. My goal is to improve my skills and create useful solutions.
 
-Java: Learning how to build strong applications with object-oriented programming.
-JavaScript: Making websites more dynamic and interactive.
-Python: Automating tasks and starting with data analysis.
-Go: Learning about efficient programming and system design.
-SQL/MySQL: Managing and organizing data.
+* Java: Learning how to build strong applications with object-oriented programming.
+* JavaScript: Making websites more dynamic and interactive.
+* Python: Automating tasks and starting with data analysis.
+* Go: Learning about efficient programming and system design.
+* SQL/MySQL: Managing and organizing data.
 
-<br />
 <br />
 
 ### ⚙️ &nbsp;GitHub Analytics
@@ -26,7 +25,6 @@ SQL/MySQL: Managing and organizing data.
 </div>
   
   
-  
 ### 🛠 &nbsp;Tech Stack
  
     
@@ -35,16 +33,10 @@ SQL/MySQL: Managing and organizing data.
   <img align="center" alt="Everson-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"/>
   <img align="center" alt="Everson-go" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"/>
   <img align="center" alt="Everson-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"/>
-  <img align="center" alt="Everson-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
-  <img align="center" alt="Everson-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
   <img align="center" alt="Everson-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
  
-
-     
-
   
-
-  
+<br />
 <br />
  
  
