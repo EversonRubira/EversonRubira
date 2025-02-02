@@ -3,7 +3,7 @@
 </p>
 <br />
 <p>
-I'm a Systems Development student at Setúbal Polytechnic, always learning and passionate about coding. On this page, you can see some of the projects I've been working on as I explore different technologies. My goal is to continuously improve my skills, with a strong focus on solving bugs and creating useful solutions.
+I'm a Systems Development student at Setúbal Polytechnic, passionate about coding and continuous learning. I enjoy solving bugs, optimizing code, and building useful solutions. On this page, you'll find projects where I explore different technologies and improve my skills.
 
 
 </p>
