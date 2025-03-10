@@ -3,21 +3,30 @@
 </p>
 <br />
 <p>
-I'm a Systems Development student at Setúbal Polytechnic, passionate about coding and continuous learning. I enjoy solving bugs, optimizing code, and building useful solutions. On this page, you'll find projects where I explore different technologies and improve my skills.
+I'm a Systems Development student at Setúbal Polytechnic, passionate about coding, data analysis, and continuous learning. I enjoy solving bugs, optimizing code, and building useful solutions. Currently transitioning from international trade to the IT and data analysis field, I have been driven by my passion for technology, automation, and data-driven solutions since 2021.
+
+On this page, you'll find projects where I explore different technologies and improve my skills. Here are some of the areas I'm currently focusing on:
+
+Java: Learning how to build robust applications with object-oriented programming.
+
+JavaScript​: Making websites more dynamic and interactive.
+
+Python: Automating tasks and diving into data analysis using libraries like Pandas and NumPy.
+
+Go: Exploring efficient programming and system design.
+
+SQL/MySQL: Managing and organizing data through relational databases.
+
+I also have basic knowledge of Excel, including key functions like VLOOKUP and XLOOKUP, which I use to complement my data analysis skills. My goal is to apply these technical skills in roles that involve data processing, reporting automation, and process optimization.
+
+Beyond coding, I am passionate about running, which helps me stay focused and energized, and traveling, which has strengthened my adaptability and problem-solving skills.
+
+Feel free to explore my projects and follow my journey in IT!
 
 
 </p>
 <br />
 
-<p align="center">
- 
-  - **Java**: Learning how to build strong applications with object-oriented programming.
-  - **JavaScript**: Making websites more dynamic and interactive.
-  - **Python**: Automating tasks and starting with data analysis.
-  - **Go**: Learning about efficient programming and system design.
-  - **SQL/MySQL**: Managing and organizing data.
-
-</p>
 
 
 
