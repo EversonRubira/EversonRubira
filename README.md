@@ -17,10 +17,6 @@ Go: Exploring efficient programming and system design.
 
 SQL/MySQL: Managing and organizing data through relational databases.
 
-I also have basic knowledge of Excel, including key functions like VLOOKUP and XLOOKUP, which I use to complement my data analysis skills. My goal is to apply these technical skills in roles that involve data processing, reporting automation, and process optimization.
-
-Beyond coding, I am passionate about running, which helps me stay focused and energized, and traveling, which has strengthened my adaptability and problem-solving skills.
-
 Feel free to explore my projects and follow my journey in IT!
 
 
