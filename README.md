@@ -3,23 +3,16 @@
 </p>
 <br />
 <p>
-I'm a Systems Development student at Setúbal Polytechnic, passionate about coding, data analysis, and continuous learning. I enjoy solving bugs, optimizing code, and building useful solutions. Currently transitioning from international trade to the IT and data analysis field, I have been driven by my passion for technology, automation, and data-driven solutions since 2021.
+I’m a Systems Development student at Setúbal Polytechnic, passionate about coding, data analysis, and continuous learning. With a background in international trade, I’m transitioning to IT and data analytics, driven by my passion for technology, automation, and data-driven solutions since 2021.
 
-On this page, you'll find projects where I explore different technologies and improve my skills. Here are some of the areas I'm currently focusing on:
+	I enjoy solving bugs, optimizing code, and building efficient, scalable solutions. My projects explore different technologies as I continuously refine my skills. Some key areas of focus include:
+		•	Java: Developing robust applications with object-oriented programming.
+	•	JavaScript: Creating interactive and dynamic web experiences.
+	•	Python: Automating tasks and analyzing data using Pandas and NumPy.
+	•	Go: Exploring efficient programming and system design.
+	•	SQL/MySQL: Structuring and managing relational databases.
 
-Java: Learning how to build robust applications with object-oriented programming.
-
-JavaScript​: Making websites more dynamic and interactive.
-
-Python: Automating tasks and diving into data analysis using libraries like Pandas and NumPy.
-
-Go: Exploring efficient programming and system design.
-
-SQL/MySQL: Managing and organizing data through relational databases.
-
-Feel free to explore my projects and follow my journey in IT!
-
-
+	Feel free to explore my projects, check out the code, and share your thoughts! I appreciate feedback and discussions that help me improve. Let’s connect and grow together in the world of technology!
 </p>
 <br />
 
