@@ -4,15 +4,17 @@
 <br />
 <p>
 I’m a Systems Development student at Setúbal Polytechnic, passionate about coding, data analysis, and continuous learning. With a background in international trade, I’m transitioning to IT and data analytics, driven by my passion for technology, automation, and data-driven solutions since 2021.
-
-	I enjoy solving bugs, optimizing code, and building efficient, scalable solutions. My projects explore different technologies as I continuously refine my skills. Some key areas of focus include:
-		•	Java: Developing robust applications with object-oriented programming.
+	
+I enjoy solving bugs, optimizing code, and building efficient, scalable solutions. My projects explore different technologies as I continuously refine my skills. Some key areas of focus include:
+	
+ •	Java: Developing robust applications with object-oriented programming.
 	•	JavaScript: Creating interactive and dynamic web experiences.
 	•	Python: Automating tasks and analyzing data using Pandas and NumPy.
 	•	Go: Exploring efficient programming and system design.
 	•	SQL/MySQL: Structuring and managing relational databases.
 
-	Feel free to explore my projects, check out the code, and share your thoughts! I appreciate feedback and discussions that help me improve. Let’s connect and grow together in the world of technology!
+	
+Feel free to explore my projects, check out the code, and share your thoughts! I appreciate feedback and discussions that help me improve. Let’s connect and grow together in the world of technology!
 </p>
 <br />
 
