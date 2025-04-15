@@ -47,7 +47,7 @@ Passionate about solving problems through code. Currently diving deep into algor
 ##
 
 ### 🌱 Current Focus  
-- Finishing **Algorithms II** course @ IPS  
+- Finishing at moment JAVA, Javascript and Databases courses @ IPS  
 - Building REST APIs with **Spring Boot + MySQL**  
 - Contributing to **open-source Python projects**  
 
