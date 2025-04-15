@@ -1,88 +1,52 @@
+<!-- Header com sua cor original -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0061ff,100:60efff&height=120&section=header&text=Everson%20Rubira&fontSize=32&fontAlignY=40&animation=fadeIn" alt="Header"/>
+</div>
 
-<h1 align="center">Hi there, I'm Everson Rubira</h1>
+### 🎓 Computer Science Student @ Instituto Politécnico de Setúbal  
+**`Career Transition` `Full-Stack Developer in Progress`**  
 
-<p align="center">
-  Software Development student at Instituto Politécnico de Setúbal  
-  <br/>
-  Career transitioner focused on backend, automation, and data solutions  
-  <br/>
-  Curious, resilient, and driven by purposeful challenges
-</p>
+Passionate about solving problems through code. Currently diving deep into algorithms and system design.  
 
 ---
 
-## 📫 Get in Touch
-
+### 🔍 How to Reach Me  
 <p align="center">
-  <a href="https://www.linkedin.com/in/eversonrubira/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" title="LinkedIn"/>
+  <a href="https://linkedin.com/in/everson-rubira" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
   </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="mailto:eversonrubira@gmail.com" target="_blank">
-    <img src="https://img.icons8.com/fluency/48/000000/gmail-new.png" width="30" title="Gmail"/>
+  <a href="mailto:seuemail@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/EversonRubira" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="30" title="GitHub"/>
+  <a href="https://discordapp.com/users/seuID" target="_blank">
+    <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord" alt="Discord">
   </a>
 </p>
 
-
 ---
 
-## 🛠️ Tech Stack
-
+### 🛠 Tech Stack  
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="30" title="Java" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="30" title="Spring Boot" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" title="Python" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" title="JavaScript" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="30" title="MySQL" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="30" title="Go" />
+  <!-- Linguagens -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="34" style="margin: 0 12px;" title="Java"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="34" style="margin: 0 12px;" title="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="34" style="margin: 0 12px;" title="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" width="34" style="margin: 0 12px;" title="Golang"/>
+ 
+  <!-- Ferramentas -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="34" style="margin: 0 12px;" title="Spring Boot"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="34" style="margin: 0 12px;" title="MySQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="34" style="margin: 0 12px;" title="Git"/>
+  <img src="https://img.shields.io/badge/-Excel-217346?style=flat&logo=microsoftexcel&logoColor=white" style="margin: 0 12px;" title="Excel (Advanced)"/>
 </p>
 
 ---
 
-## 📊 GitHub Stats
+### 🌱 Current Focus  
+- Finishing **Algorithms II** course @ IPS  
+- Building REST APIs with **Spring Boot + MySQL**  
+- Contributing to **open-source Python projects**  
 
-<table align="center">
-  <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=EversonRubira&show_icons=true&theme=tokyonight&hide=stars&hide_rank=true" width="100%"/></td>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EversonRubira&layout=compact&theme=tokyonight" width="100%"/></td>
-  </tr>
-</table>
-
----
-
-## 🔥 Contribution Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=EversonRubira&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 📌 My Journey
-
-```diff
-+ 2021: Wrote my first lines of code
-+ 2023: Earned certifications in Java, Python, and started my BSc in IT
-+ 2024: Looking for my first professional opportunity in tech
-```
-## 👁‍🗨 Profile Visitor Counter
-
-<p align="center">
-  <img src="https://profile-counter.glitch.me/EversonRubira/count.svg" />
-</p>
-
----
-
-## ✨ Inspiration
-
-README based on community templates from [reeveng](https://github.com/reeveng), [sudiptog81](https://github.com/sudiptog81), and [FelixRilling](https://github.com/FelixRilling).
-
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=blueviolet&label=Profile+Views&style=flat" alt="Profile views"/>  
+</div>
