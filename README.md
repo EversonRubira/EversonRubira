@@ -6,7 +6,7 @@
 
 
 ### 🎓 Computer Science Student @ Instituto Politécnico de Setúbal  
-**`Career Transition` `Full-Stack Developer in Progress`**  
+**`Career Transition` `Developer in Progress`**  
 
 Passionate about solving complex problems through code. Currently specializing in:  
 • **JavaScript** ecosystems and modern frameworks  
