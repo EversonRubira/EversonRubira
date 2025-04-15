@@ -6,7 +6,11 @@
 ### 🎓 Computer Science Student @ Instituto Politécnico de Setúbal  
 **`Career Transition` `Full-Stack Developer in Progress`**  
 
-Passionate about solving problems through code. Currently diving deep into algorithms and system design.  
+Passionate about solving complex problems through code. Currently specializing in:  
+• **JavaScript** ecosystems and modern frameworks  
+• **System Design** with MySQL databases  
+• **Data Analysis** with Python/Pandas and advanced Excel  
+
 
 ##
 
