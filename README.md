@@ -1,6 +1,6 @@
 <!-- Header com sua cor original -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0061ff,100:60efff&height=120&section=header&text=Everson%20Rubira&fontSize=32&fontAlignY=40&animation=fadeIn" alt="Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff4d4d,100:f9cb28&height=120&section=header&text=Everson%20Rubira&fontSize=32&fontAlignY=40&animation=fadeIn" alt="Header"/>
 </div>
 
 ### 🎓 Computer Science Student @ Instituto Politécnico de Setúbal  
