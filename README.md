@@ -8,38 +8,43 @@
 
 Passionate about solving problems through code. Currently diving deep into algorithms and system design.  
 
----
+##
 
 ### 🔍 How to Reach Me  
 <p align="center">
   <a href="https://linkedin.com/in/everson-rubira" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
   </a>
-  <a href="mailto:seuemail@gmail.com" target="_blank">
+  <a href="mailto:eversonrubira@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
-  <a href="https://discordapp.com/users/seuID" target="_blank">
-    <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord" alt="Discord">
-  </a>
+  <a href="https://discord.gg/wagxzStdcR" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank">
+  </a> 
 </p>
 
----
+##
 
 ### 🛠 Tech Stack  
   
 <p align="center">
-  <!-- Linguagens -->
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" class="tech-badge"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" class="tech-badge"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" class="tech-badge"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Golang" class="tech-badge"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" class="tech-badge"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" class="tech-badge"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" class="tech-badge"/>
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" class="tech-badge"/>
+ 
+  
+  <img align="center" alt="Everson-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg">
+  <img align="center" alt="Everson-Java" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg">
+  <img align="center" alt="Everson-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+  <img align="center" alt="Everson-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg">
+  <img align="center" alt="Everson-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg">
+  <img align="center" alt="Everson-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg">
+  <img align="center" alt="Everson-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg">
+  <img align="center" alt="Everson-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg">
+  <img align="center" alt="Everson-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg">
+          
+          
+</div>
 </p>
 
----
+##
 
 ### 🌱 Current Focus  
 - Finishing **Algorithms II** course @ IPS  
@@ -49,3 +54,7 @@ Passionate about solving problems through code. Currently diving deep into algor
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=blueviolet&label=Profile+Views&style=flat" alt="Profile views"/>  
 </div>
+
+##
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EversonRubira&theme=github-compact&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
