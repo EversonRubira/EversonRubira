@@ -26,18 +26,17 @@ Passionate about solving problems through code. Currently diving deep into algor
 ---
 
 ### 🛠 Tech Stack  
+  
 <p align="center">
   <!-- Linguagens -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="34" style="margin: 0 12px;" title="Java"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="34" style="margin: 0 12px;" title="JavaScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="34" style="margin: 0 12px;" title="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" width="34" style="margin: 0 12px;" title="Golang"/>
- 
-  <!-- Ferramentas -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="34" style="margin: 0 12px;" title="Spring Boot"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="34" style="margin: 0 12px;" title="MySQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="34" style="margin: 0 12px;" title="Git"/>
-  <img src="https://img.shields.io/badge/-Excel-217346?style=flat&logo=microsoftexcel&logoColor=white" style="margin: 0 12px;" title="Excel (Advanced)"/>
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" class="tech-badge"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" class="tech-badge"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" class="tech-badge"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Golang" class="tech-badge"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" class="tech-badge"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" class="tech-badge"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" class="tech-badge"/>
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" class="tech-badge"/>
 </p>
 
 ---
