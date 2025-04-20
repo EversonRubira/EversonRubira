@@ -18,13 +18,13 @@ Passionate about solving complex problems through code. Currently specializing i
 
 ### 🔍 How to Reach Me  
 <p align="center">
-  <a href="https://linkedin.com/in/everson-rubira" target="_blank">
+  <a href="https://www.linkedin.com/in/eversonrubira" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
   </a>
   <a href="mailto:eversonrubira@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
-  <a href="https://discord.gg/wagxzStdcR" target="_blank">
+  <a href="https://discordapp.com/users/768512954731462700" target="_blank">
     <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank">
   </a> 
 </p>
