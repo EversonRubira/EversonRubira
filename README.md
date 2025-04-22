@@ -6,7 +6,7 @@
 
 
 ### 🎓 Systems Development Student @ Instituto Politécnico de Setúbal  
-**`Career Transition: From Business Admin to Tech`**  
+**`Transitioning from Business Management to Tech`**  
 
 Passionate about building solutions through code. Currently focused on:  
   • Backend Development (Java/Spring Boot, Node.js)  
