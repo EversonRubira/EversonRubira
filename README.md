@@ -5,13 +5,14 @@
 
 
 
-### 🎓 Computer Science Student @ Instituto Politécnico de Setúbal  
-**`Career Transition` `Developer in Progress`**  
+### 🎓 Systems Development Student @ Instituto Politécnico de Setúbal  
+**`Career Transition: From Business Admin to Tech`**  
 
-Passionate about solving complex problems through code. Currently specializing in:  
-• **JavaScript** ecosystems and modern frameworks  
-• **System Design** with MySQL databases  
-• **Data Analysis** with Python/Pandas and advanced Excel  
+Passionate about building solutions through code. Currently focused on:  
+  • Backend Development (Java/Spring Boot, Node.js)  
+  • Database Systems (MySQL, MongoDB)  
+  • Data Analysis (Python/Pandas, Advanced Excel)  
+  • API Design & System Architecture 
 
 
 ##
