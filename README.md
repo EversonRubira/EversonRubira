@@ -64,14 +64,18 @@ Passionate about building solutions through code. Currently focused on:
 
 
 ### 🌱 Current Focus  
-- Finishing at moment JAVA, Javascript and Databases courses @ IPS  
-- Building REST APIs with **Spring Boot + MySQL**  
-- Contributing to **open-source Python projects**  
+- **Data Analysis**: Python (Pandas, SQL), Data Visualization (Matplotlib/Seaborn), and BI tools  
+- **Backend Skills**: Building REST APIs with Spring Boot + MySQL (integrating data pipelines)  
+- **Education**: Finishing JAVA, JavaScript, and Databases courses @ IPS  
+- **Open Source**: Contributing to Python projects (data-related libraries or automation)
+
+  <br> 
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=blueviolet&label=Profile+Views&style=flat" alt="Profile views"/>  
 </div>
 
 ##
+
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EversonRubira&theme=github-compact&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
