@@ -1,8 +1,7 @@
 <div align="center" style="position: relative; height: 120px; overflow: hidden;">
   <!-- Onda (altura fixa igual ao container pai) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1e6fba&height=120&section=header&fontSize=0" style="width: 100%; height: 100%; object-fit: cover"/>
-  
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:306998,100:FFD43B&height=120&section=header&text=Everson%20Rubira&fontSize=25&fontAlignY=28&fontAlign=right&animation=fadeIn" alt="Header" width="100%"/>
+</div>
 
 
 ### 🎓 Systems Development Student @ Instituto Politécnico de Setúbal  
@@ -16,10 +15,16 @@ Passionate about building solutions through code. Currently focused on:
 
 
 ##
+
+<div align="center"><br>
+
 ### 📫 Contact  
 [![LinkedIn][1.1]][1]
 [![Gmail][2.1]][2]
 [![Discord][3.1]][3]
+
+
+</div>
 
 [1.1]: https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin
 [1]: https://www.linkedin.com/in/eversonrubira
