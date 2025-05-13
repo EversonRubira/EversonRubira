@@ -2,11 +2,7 @@
   <!-- Onda (altura fixa igual ao container pai) -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1e6fba&height=120&section=header&fontSize=0" style="width: 100%; height: 100%; object-fit: cover"/>
   
-  <!-- Texto SOBREPOSTO (ajuste fino com translateY) -->
-  <div style="position: absolute; top: -5%; right: 5%; transform: translateY(-5%); z-index: 2;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=FFD700&width=380&lines=Everson+Rubira;Back-End+Developer;Python+Data+Analyst" alt="Typing Animation" />
-  </div>
-</div>
+
 
 
 ### 🎓 Systems Development Student @ Instituto Politécnico de Setúbal  
