@@ -1,6 +1,6 @@
 <div align="center" style="position: relative; height: 120px; overflow: hidden;">
   <!-- Onda (altura fixa igual ao container pai) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:306998,100:FFD43B&height=120&section=header&text=Everson%20Rubira&fontSize=25&fontAlignY=28&fontAlign=right&animation=fadeIn" alt="Header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:306998,100:FFD43B&height=120&section=header&animation=fadeIn" alt="Header" width="100%"/>
 </div>
 
 
