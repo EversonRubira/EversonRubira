@@ -14,14 +14,7 @@ Passionate about building solutions through code. Currently focused on:
   • API Design & System Architecture 
 
 
-##
 
-<div align="center"><br>
-
-### 📫 Contact  
-[![LinkedIn][1.1]][1]
-[![Gmail][2.1]][2]
-[![Discord][3.1]][3]
 
 
 </div>
