@@ -10,7 +10,7 @@
 Passionate about building solutions through code. Currently focused on:  
   • Backend Development (Java/Spring Boot, Node.js)  
   • Database Systems (MySQL, MongoDB)  
-  • Data Analysis (Python/Pandas, Advanced Excel)  
+  • Data Analysis (Python/Pandas/Matplotlib, Advanced Excel)  
   • API Design & System Architecture 
 
 
@@ -64,7 +64,16 @@ Passionate about building solutions through code. Currently focused on:
 - **Backend Skills**: Building REST APIs with Spring Boot + MySQL (integrating data pipelines)  
 - **Education**: Finishing JAVA, JavaScript, and Databases courses @ IPS  
 - **Open Source**: Contributing to Python projects (data-related libraries or automation)
+##
 
+### 🌍 Conecte-se comigo
+
+<a href="https://www.instagram.com/eversonrubira" target="_blank"><img align="left" alt="Instagram" width="22px" src="https://raw.githubusercontent.com/Aakarsh-B/trying-repos/master/insta.svg" /></a>
+<a href="https://www.linkedin.com/in/eversonrubira" target="_blank"><img align="left" alt="LinkedIn" width="22px" src="https://raw.githubusercontent.com/Aakarsh-B/trying-repos/master/linkedin.svg" /></a>
+
+<br/>
+
+##
   <br> 
 
 <div align="center">
