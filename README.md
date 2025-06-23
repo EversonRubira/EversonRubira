@@ -1,6 +1,6 @@
 <div align="center" style="position: relative; height: 120px; overflow: hidden;">
-  <!-- Onda (altura fixa igual ao container pai) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:306998,100:FFD43B&height=120&section=header&animation=fadeIn" alt="Header" width="100%"/>
+  <!-- Onda com gradiente de cores que lembra o Java -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:007396,100:FF2D20&height=120&section=header&animation=fadeIn" alt="Header" width="100%"/>
 </div>
 
 
