@@ -59,12 +59,13 @@ Passionate about building solutions through code. Currently focused on:
 
 
 
-### 🌱 Current Focus  
-- **Data Analysis**: Python (Pandas, SQL), Data Visualization (Matplotlib/Seaborn), and BI tools  
-- **Backend Skills**: Building REST APIs with Spring Boot + MySQL (integrating data pipelines)  
-- **Education**: Finishing JAVA, JavaScript, and Databases courses @ IPS  
-- **Open Source**: Contributing to Python projects (data-related libraries or automation)
-##
+🌱 Current Focus
+
+Backend Development: Java 17, Spring Boot, MongoDB, RESTful APIs
+Clean Architecture: Applying Clean Architecture principles in real projects
+Authentication: JWT-based security with Spring Security
+Education: Studying Java, Web Development, and Databases @ IPS
+Projects: Actively building backend systems for task and project management
 
 ### 🌍 Conecte-se comigo
 
