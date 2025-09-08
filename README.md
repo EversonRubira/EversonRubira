@@ -5,13 +5,19 @@
 
 
 ### 🎓 Systems Development Student @ Instituto Politécnico de Setúbal  
-**`Transitioning from Business Management to Tech`**  
+**`Career Transition: Business Management → Backend Development`**  
 
 Passionate about building solutions through code. Currently focused on:  
-  • Backend Development (Java/Spring Boot, Node.js)  
-  • Database Systems (MySQL, MongoDB)  
-  • Data Analysis (Python/Pandas/Matplotlib, Advanced Excel)  
-  • API Design & System Architecture 
+  • Backend Development — [Java/Spring Boot](https://github.com/EversonRubira/Boardly), [Node.js/Express](https://github.com/EversonRubira/criptomoedas-nodejs)  
+  • Database Systems — [MySQL](https://github.com/EversonRubira/GestaoSaudeMental), MongoDB  
+  • API Design & System Architecture — RESTful APIs, Clean Architecture  
+  • Data Analysis & Automation — Python (Pandas, Matplotlib) & Advanced Excel  
+
+#### 🔹 Highlighted Projects  
+  • [Boardly](https://github.com/EversonRubira/Boardly) — Project management system (Java 17, Spring Boot, MongoDB, Clean Architecture).  
+  • [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) — Java-based backend system with REST API & MySQL.  
+  • [Criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs) — Real-time crypto prices app (Node.js + CoinGecko API).  
+  • [FitCheck](https://github.com/EversonRubira/fitcheck) — BMI calculator with history & alerts (Node.js + Vanilla JS).  
 
 
 
