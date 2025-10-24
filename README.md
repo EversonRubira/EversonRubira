@@ -2,31 +2,40 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:007396,100:FF2D20&height=120&section=header&animation=fadeIn" alt="Header banner"/>
 </p>
 
-# Everson Rubira — Systems Development Student
+# Everson Rubira — Backend Developer
 
-**Career Transition:** Business Management → Backend Development
+**Building scalable systems with clean architecture principles**  
+Career transition: Business Management → Backend Development
 
-Passionate about building solutions through code. Currently focused on:
-
-- **Backend Development:** [Java/Spring Boot](https://github.com/EversonRubira/Boardly), [Node.js/Express](https://github.com/EversonRubira/criptomoedas-nodejs)
-- **Database Systems:** [MySQL](https://github.com/EversonRubira/GestaoSaudeMental), MongoDB
-- **API Design & Architecture:** RESTful APIs, Clean Architecture
-- **Data & Automation:** Python (Pandas, Matplotlib), Advanced Excel
+Focused on designing robust APIs, implementing domain-driven solutions, and working with modern backend technologies to solve real-world problems.
 
 ---
 
-## 🔹 Highlighted Projects
+## 🚀 What I'm Building
 
-| Project | Description | Stack |
-|---|---|---|
-| [Boardly](https://github.com/EversonRubira/Boardly) | Project management system (MVP) | Java 17, Spring Boot, MongoDB, Clean Architecture |
-| [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) | Backend REST API | Java, Spring, MySQL |
-| [Criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs) | Real-time crypto prices | Node.js, Express, CoinGecko API |
-| [FitCheck](https://github.com/EversonRubira/FitCheck_Basico) | BMI calculator with history & alerts | Node.js, Vanilla JS |
+### [Boardly](https://github.com/EversonRubira/Boardly)
+Project management MVP applying **Clean Architecture** with Java 17 and Spring Boot  
+→ Focus: Domain separation, MongoDB aggregations, RESTful design patterns
+
+### [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
+Healthcare management REST API with Spring Security authentication  
+→ Focus: Relational data modeling, MySQL optimization, security best practices
+
+### [Criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
+Real-time cryptocurrency tracker consuming CoinGecko API  
+→ Focus: Async operations, external API integration, data transformation
+
+### [FitCheck](https://github.com/EversonRubira/FitCheck_Basico)
+BMI calculator with persistent history and health alerts  
+→ Focus: State management, local storage, vanilla JS fundamentals
 
 ---
 
 ## 🛠 Tech Stack
+
+**Primary:** Java 17, Spring Boot, Node.js/Express  
+**Databases:** MySQL, MongoDB  
+**Currently Learning:** Go, JWT authentication with Spring Security, Docker basics
 
 <p align="center">
   <img alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
@@ -43,13 +52,12 @@ Passionate about building solutions through code. Currently focused on:
 
 ---
 
-## 🌱 Current Focus
+## 📚 Education & Background
 
-- Backend: Java 17, Spring Boot, MongoDB, RESTful APIs  
-- Clean Architecture in real projects  
-- Authentication: JWT with Spring Security  
-- Education: Java, Web Development, Databases @ IPS  
-- Projects: backends for task/project management
+**Systems Development** @ IPS — Focus: Web Development, Databases, Software Engineering  
+**Previous:** 5+ years in Business Management → Applying strategic thinking to software architecture
+
+**Core Skills from Business:** Data analysis (Python/Pandas), process automation, Excel advanced modeling
 
 ---
 
