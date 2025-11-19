@@ -13,13 +13,13 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 
 ## 🚀 What I'm Building
 
-### [Boardly](https://github.com/EversonRubira/Boardly)
-Project management MVP applying **Clean Architecture** with Java 17 and Spring Boot  
-→ Focus: Domain separation, MongoDB aggregations, RESTful design patterns
-
 ### [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
 Healthcare management REST API with Spring Security authentication  
 → Focus: Relational data modeling, MySQL optimization, security best practices
+
+### [Boardly](https://github.com/EversonRubira/Boardly)
+Project management MVP applying **Clean Architecture** with Java 17 and Spring Boot  
+→ Focus: Domain separation, MongoDB aggregations, RESTful design patterns
 
 ### [Criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
 Real-time cryptocurrency tracker consuming CoinGecko API  
