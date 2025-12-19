@@ -14,8 +14,12 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## 🚀 What I'm Building
 
 ### [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
-Healthcare management REST API with Spring Security authentication  
+Mental health management REST API with Spring Security authentication  
 → Focus: Relational data modeling, MySQL optimization, security best practices
+
+### [StudyFlow](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
+Android app for managing academic disciplines, tasks, and study time tracking  
+→ Focus: State management, local storage, mobile UI/UX
 
 ### [Boardly](https://github.com/EversonRubira/Boardly)
 Project management MVP applying **Clean Architecture** with Java 17 and Spring Boot  
@@ -24,10 +28,6 @@ Project management MVP applying **Clean Architecture** with Java 17 and Spring B
 ### [Criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
 Real-time cryptocurrency tracker consuming CoinGecko API  
 → Focus: Async operations, external API integration, data transformation
-
-### [FitCheck](https://github.com/EversonRubira/FitCheck_Basico)
-BMI calculator with persistent history and health alerts  
-→ Focus: State management, local storage, vanilla JS fundamentals
 
 ---
 
