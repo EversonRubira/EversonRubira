@@ -86,3 +86,4 @@ Real-time cryptocurrency tracker consuming CoinGecko API
 [2]: mailto:eversonrubira@gmail.com
 [3.1]: https://img.shields.io/badge/Discord-7289DA?logo=discord
 [3]: https://discordapp.com/users/768512954731462700
+
