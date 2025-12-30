@@ -43,25 +43,28 @@ Real-time cryptocurrency tracker consuming CoinGecko API
 ## 🛠 Tech Stack & Competencies
 
 **Languages:** Java 17, JavaScript, Python, Go (learning)  
-**Frameworks:** Spring Boot, Spring Security, Node.js/Express  
+**Backend:** Spring Boot, Spring Security, Node.js, Express  
 **Databases:** MySQL, MongoDB  
 **Architecture:** Clean Architecture, Domain-Driven Design (DDD), Hexagonal Architecture  
-**DevOps:** Docker, Git, REST API design  
-**Testing:** JUnit, Integration Testing, QA automation practices  
+**DevOps & Tools:** Docker, Git, Maven, REST API design  
+**Testing:** JUnit, Mockito, Integration Testing, QA automation practices  
 **Currently Learning:** Advanced JWT authentication, Go backend development, Docker orchestration
 
 <p align="center">
   <img alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
-  <img alt="Maven" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"/>
-  <img alt="Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+  <img alt="Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"/>
+  <img alt="Node.js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
   <img alt="JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+  <img alt="Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
   <img alt="Go" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"/>
-  <img alt="VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
-  <img alt="IntelliJ" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"/>
-  <img alt="Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg"/>
-  <img alt="MongoDB" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/>
   <img alt="MySQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
+  <img alt="MongoDB" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/>
   <img alt="Docker" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
+  <img alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
+  <img alt="Maven" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"/>
+  <img alt="IntelliJ" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"/>
+  <img alt="VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
+  <img alt="Android Studio" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"/>
 </p>
 
 ---
@@ -96,8 +99,6 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 [![LinkedIn][1.1]][1] &nbsp;
 [![Gmail][2.1]][2] &nbsp;
 [![Discord][3.1]][3]
-
-📧 **eversonrubira@gmail.com** | 🔗 **[linkedin.com/in/eversonrubira](https://www.linkedin.com/in/eversonrubira)**
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=blueviolet&label=Profile+Views&style=flat" alt="Profile views"/>
