@@ -6,7 +6,7 @@
 
 **Building scalable systems with clean architecture principles**  
 Career transition: Business Management → Backend Development  
-🎯 **Seeking backend internship opportunities | Available from February 2025**
+🎯 **Seeking backend internship opportunities | Available from February 2026**
 
 Focused on designing robust APIs, implementing domain-driven solutions, and working with modern backend technologies to solve real-world problems.
 
