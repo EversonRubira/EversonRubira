@@ -5,37 +5,50 @@
 # Everson Rubira — Backend Developer
 
 **Building scalable systems with clean architecture principles**  
-Career transition: Business Management → Backend Development
+Career transition: Business Management → Backend Development  
+🎯 **Seeking backend internship opportunities | Available from February 2025**
 
 Focused on designing robust APIs, implementing domain-driven solutions, and working with modern backend technologies to solve real-world problems.
 
 ---
 
-## 🚀 What I'm Building
+## 🚀 Featured Projects
 
-### [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
-Mental health management REST API with Spring Security authentication  
-→ Focus: Relational data modeling, MySQL optimization, security best practices
+### [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) ⭐
+Mental health tracking REST API with Spring Security JWT authentication  
+**Tech:** Java 17, Spring Boot, MySQL, Spring Security, JUnit  
+**Focus:** Relational modeling, security best practices, RESTful design  
+**Highlights:** User authentication, emotional state tracking with trend analysis, personalized wellness recommendations
 
 ### [StudyFlow](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
-Android app for managing academic disciplines, tasks, and study time tracking  
-→ Focus: State management, local storage, mobile UI/UX
+Android app for managing academic workload and study sessions  
+**Tech:** Kotlin, Android Studio, Room Database  
+**Focus:** State management, local persistence, mobile UX patterns  
+**Highlights:** Task scheduling, time tracking, performance analytics
 
 ### [Boardly](https://github.com/EversonRubira/Boardly)
-Project management MVP applying **Clean Architecture** with Java 17 and Spring Boot  
-→ Focus: Domain separation, MongoDB aggregations, RESTful design patterns
+Project management MVP applying **Clean Architecture** and **DDD**  
+**Tech:** Java 17, Spring Boot, MongoDB, Docker  
+**Focus:** Domain separation, hexagonal architecture, NoSQL aggregations  
+**Highlights:** Team collaboration features, task workflows, MongoDB optimization
 
 ### [Criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
 Real-time cryptocurrency tracker consuming CoinGecko API  
-→ Focus: Async operations, external API integration, data transformation
+**Tech:** Node.js, Express, REST APIs  
+**Focus:** Async operations, external API integration, data transformation  
+**Highlights:** Live price updates, historical data visualization
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack & Competencies
 
-**Primary:** Java 17, Spring Boot, Node.js/Express  
+**Languages:** Java 17, JavaScript, Python, Go (learning)  
+**Frameworks:** Spring Boot, Spring Security, Node.js/Express  
 **Databases:** MySQL, MongoDB  
-**Currently Learning:** Go, JWT authentication with Spring Security, Docker basics
+**Architecture:** Clean Architecture, Domain-Driven Design (DDD), Hexagonal Architecture  
+**DevOps:** Docker, Git, REST API design  
+**Testing:** JUnit, Integration Testing, QA automation practices  
+**Currently Learning:** Advanced JWT authentication, Go backend development, Docker orchestration
 
 <p align="center">
   <img alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
@@ -48,16 +61,33 @@ Real-time cryptocurrency tracker consuming CoinGecko API
   <img alt="Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg"/>
   <img alt="MongoDB" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/>
   <img alt="MySQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
+  <img alt="Docker" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
 </p>
+
+---
+
+## 💼 Hands-on Experience
+
+**Architectural Patterns:** Implemented Clean Architecture and DDD in production-ready projects, separating domain logic from infrastructure concerns  
+**API Development:** Built RESTful APIs with authentication, authorization, and proper error handling  
+**Database Design:** Designed normalized relational schemas and optimized NoSQL document structures  
+**Testing & Quality:** Developed unit and integration tests following TDD principles, currently advancing in QA automation  
+**Version Control:** Git workflows with meaningful commit messages and branch strategies
 
 ---
 
 ## 📚 Education & Background
 
-**Systems Development** @ IPS — Focus: Web Development, Databases, Software Engineering  
-**Previous:** 5+ years in Business Management → Applying strategic thinking to software architecture
+**Systems Development** @ Instituto Politécnico de Setúbal (3rd semester)  
+Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 
-**Core Skills from Business:** Data analysis (Python/Pandas), process automation, Excel advanced modeling
+**Specialized Training:**
+- Clean Architecture & DDD (Alura)
+- QA: Processes and Test Automation (Alura, in progress)
+- Docker & AWS Deployment (Alura)
+
+**Previous Career:** 5+ years in Business Management & International Trade  
+→ Applying strategic thinking, data analysis, and process optimization to software development
 
 ---
 
@@ -66,6 +96,8 @@ Real-time cryptocurrency tracker consuming CoinGecko API
 [![LinkedIn][1.1]][1] &nbsp;
 [![Gmail][2.1]][2] &nbsp;
 [![Discord][3.1]][3]
+
+📧 **eversonrubira@gmail.com** | 🔗 **[linkedin.com/in/eversonrubira](https://www.linkedin.com/in/eversonrubira)**
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=blueviolet&label=Profile+Views&style=flat" alt="Profile views"/>
