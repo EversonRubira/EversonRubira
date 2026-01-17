@@ -2,9 +2,9 @@ name: Update README with Recent Projects
 
 on:
   schedule:
-    # Roda todo dia às 00:00 UTC (01:00 em Portugal)
+    # Runs daily at 00:00 UTC (01:00 Portugal time)
     - cron: '0 0 * * *'
-  workflow_dispatch: # Permite executar manualmente
+  workflow_dispatch: # Allows manual execution
   push:
     branches: [main]
 
@@ -25,9 +25,9 @@ jobs:
           script: |
             const owner = 'EversonRubira';
             
-            console.log('🔍 Buscando repositórios...');
+            console.log('🔍 Fetching repositories...');
             
-            // Buscar todos os repositórios públicos ordenados por último push
+            // Fetch all public repositories sorted by last push
             const { data: repos } = await github.rest.repos.listForUser({
               username: owner,
               sort: 'pushed',
@@ -35,40 +35,57 @@ jobs:
               per_page: 100
             });
             
-            console.log(`📦 Total de repositórios encontrados: ${repos.length}`);
+            console.log(`📦 Total repositories found: ${repos.length}`);
             
-            // Filtrar repositórios próprios (não forks) e excluir o repo do perfil
+            // Filter own repositories (not forks) and exclude profile repo
             const recentRepos = repos
               .filter(repo => !repo.fork && repo.name !== 'EversonRubira')
               .slice(0, 4);
             
-            console.log('✅ Repositórios selecionados:');
+            console.log('✅ Selected repositories:');
             recentRepos.forEach(repo => console.log(`   - ${repo.name}`));
             
-            // Gerar markdown para cada repositório
+            // Month names in English
+            const monthNames = {
+              'jan.': 'Jan',
+              'fev.': 'Feb',
+              'mar.': 'Mar',
+              'abr.': 'Apr',
+              'mai.': 'May',
+              'jun.': 'Jun',
+              'jul.': 'Jul',
+              'ago.': 'Aug',
+              'set.': 'Sep',
+              'out.': 'Oct',
+              'nov.': 'Nov',
+              'dez.': 'Dec'
+            };
+            
+            // Generate markdown for each repository
             let content = '';
             
             for (const repo of recentRepos) {
-              console.log(`\n📝 Processando: ${repo.name}`);
+              console.log(`\n📝 Processing: ${repo.name}`);
               
-              // Buscar linguagens do repositório
+              // Fetch repository languages
               const { data: languages } = await github.rest.repos.listLanguages({
                 owner,
                 repo: repo.name
               });
               
-              // Pegar as 3 principais linguagens
+              // Get top 3 languages
               const topLangs = Object.keys(languages).slice(0, 3);
               const techStack = topLangs.length > 0 ? topLangs.join(', ') : repo.language || 'N/A';
               
-              // Formatar data do último push
-              const lastPush = new Date(repo.pushed_at).toLocaleDateString('pt-BR', {
-                day: '2-digit',
+              // Format last push date in English
+              const lastPushDate = new Date(repo.pushed_at);
+              let formattedDate = lastPushDate.toLocaleDateString('en-US', {
+                day: 'numeric',
                 month: 'short',
                 year: 'numeric'
               });
               
-              // Buscar último commit para ter contexto adicional
+              // Fetch last commit for additional context
               let lastCommitMsg = '';
               try {
                 const { data: commits } = await github.rest.repos.listCommits({
@@ -78,48 +95,54 @@ jobs:
                 });
                 
                 if (commits.length > 0) {
-                  lastCommitMsg = commits[0].commit.message.split('\n')[0]; // Primeira linha
-                  // Limitar tamanho da mensagem
+                  lastCommitMsg = commits[0].commit.message.split('\n')[0];
+                  // Limit message length
                   if (lastCommitMsg.length > 60) {
                     lastCommitMsg = lastCommitMsg.substring(0, 57) + '...';
                   }
                 }
               } catch (error) {
-                console.log(`   ⚠️ Não foi possível buscar commits: ${error.message}`);
+                console.log(`   ⚠️ Could not fetch commits: ${error.message}`);
               }
               
-              // Construir o bloco markdown
-              content += `### [${repo.name}](${repo.html_url})`;
+              // Build markdown block
+              content += `### 🔹 [${repo.name}](${repo.html_url})`;
               
-              // Adicionar badge de estrelas se tiver
+              // Add star badge if has stars
               if (repo.stargazers_count > 0) {
-                content += ` ⭐`;
+                content += ` ⭐ ${repo.stargazers_count}`;
               }
               
               content += `\n`;
-              content += `${repo.description || 'Projeto em desenvolvimento'}\n\n`;
-              content += `**Tech:** ${techStack}`;
               
-              // Adicionar informações adicionais
-              if (repo.stargazers_count > 0 || repo.forks_count > 0) {
-                content += ` | **Stars:** ⭐ ${repo.stargazers_count}`;
-                if (repo.forks_count > 0) {
-                  content += ` | **Forks:** 🍴 ${repo.forks_count}`;
-                }
+              // Description
+              const description = repo.description || 'Backend development project';
+              content += `${description}\n\n`;
+              
+              // Tech stack
+              content += `**Tech Stack:** ${techStack}`;
+              
+              // Add forks if any
+              if (repo.forks_count > 0) {
+                content += ` • **Forks:** ${repo.forks_count}`;
               }
               
-              content += `  \n**Last update:** ${lastPush}`;
+              content += `  \n`;
               
+              // Last update
+              content += `**Last updated:** ${formattedDate}`;
+              
+              // Last commit message
               if (lastCommitMsg) {
-                content += ` | 💬 _"${lastCommitMsg}"_`;
+                content += `  \n💬 _"${lastCommitMsg}"_`;
               }
               
               content += `\n\n---\n\n`;
             }
             
-            console.log('\n📖 Lendo README atual...');
+            console.log('\n📖 Reading current README...');
             
-            // Ler README atual
+            // Read current README
             const { data: readmeData } = await github.rest.repos.getContent({
               owner,
               repo: 'EversonRubira',
@@ -128,15 +151,15 @@ jobs:
             
             const readme = Buffer.from(readmeData.content, 'base64').toString('utf-8');
             
-            // Substituir conteúdo entre os marcadores
+            // Replace content between markers
             const startMarker = '<!-- RECENT_PROJECTS:START -->';
             const endMarker = '<!-- RECENT_PROJECTS:END -->';
             
             const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'g');
             
             if (!regex.test(readme)) {
-              console.error('❌ Marcadores não encontrados no README!');
-              core.setFailed('Marcadores <!-- RECENT_PROJECTS:START --> e <!-- RECENT_PROJECTS:END --> não encontrados');
+              console.error('❌ Markers not found in README!');
+              core.setFailed('Markers <!-- RECENT_PROJECTS:START --> and <!-- RECENT_PROJECTS:END --> not found');
               return;
             }
             
@@ -145,15 +168,15 @@ jobs:
               `${startMarker}\n${content}${endMarker}`
             );
             
-            // Verificar se houve mudanças
+            // Check if there were changes
             if (readme === newReadme) {
-              console.log('✨ Nenhuma mudança detectada. README já está atualizado!');
+              console.log('✨ No changes detected. README is already up to date!');
               return;
             }
             
-            console.log('💾 Atualizando README...');
+            console.log('💾 Updating README...');
             
-            // Atualizar README
+            // Update README
             await github.rest.repos.createOrUpdateFileContents({
               owner,
               repo: 'EversonRubira',
@@ -163,4 +186,4 @@ jobs:
               sha: readmeData.sha
             });
             
-            console.log('✅ README atualizado com sucesso!');
+            console.log('✅ README updated successfully!');
