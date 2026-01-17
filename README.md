@@ -6,15 +6,16 @@
 
 **Building scalable systems with clean architecture principles**  
 Career transition: Business Management → Backend Development  
-🎯 **Seeking backend internship opportunities | Available from February 2026**
+**Seeking backend internship opportunities | Available from February 2026**
 
 Focused on designing robust APIs, implementing domain-driven solutions, and working with modern backend technologies to solve real-world problems.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) ⭐
+<!-- RECENT_PROJECTS:START -->
+### [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) 
 Mental health tracking REST API with Spring Security JWT authentication  
 **Tech:** Java 17, Spring Boot, MySQL, Spring Security, JUnit  
 **Focus:** Relational modeling, security best practices, RESTful design  
@@ -37,10 +38,11 @@ Real-time cryptocurrency tracker consuming CoinGecko API
 **Tech:** Node.js, Express, REST APIs  
 **Focus:** Async operations, external API integration, data transformation  
 **Highlights:** Live price updates, historical data visualization
+<!-- RECENT_PROJECTS:END -->
 
 ---
 
-## 🛠 Tech Stack & Competencies
+## Tech Stack & Competencies
 
 **Languages:** Java 17, JavaScript, Python, Go (learning)  
 **Backend:** Spring Boot, Spring Security, Node.js, Express  
@@ -69,7 +71,7 @@ Real-time cryptocurrency tracker consuming CoinGecko API
 
 ---
 
-## 💼 Hands-on Experience
+## Hands-on Experience
 
 **Architectural Patterns:** Implemented Clean Architecture and DDD in production-ready projects, separating domain logic from infrastructure concerns  
 **API Development:** Built RESTful APIs with authentication, authorization, and proper error handling  
@@ -79,7 +81,7 @@ Real-time cryptocurrency tracker consuming CoinGecko API
 
 ---
 
-## 📚 Education & Background
+## Education & Background
 
 **Systems Development** @ Instituto Politécnico de Setúbal (3rd semester)  
 Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
@@ -94,7 +96,7 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 
 ---
 
-## 🌍 Connect with me
+## Connect with me
 
 [![LinkedIn][1.1]][1] &nbsp;
 [![Gmail][2.1]][2] &nbsp;
