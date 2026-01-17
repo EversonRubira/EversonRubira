@@ -15,35 +15,39 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
-### [Gestao_de_Tarefas-Estudos](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
-Projeto em desenvolvimento
+### 🔹 [Gestao_de_Tarefas-Estudos](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
+Backend development project
 
-**Tech:** Java  
-**Last update:** 17 de jan. de 2026 | 💬 _"Adiciona documentacao: README, Manual do Usuario e Manual..."_
-
----
-
-### [Gestao_de_Receitas](https://github.com/EversonRubira/Gestao_de_Receitas)
-Projeto em desenvolvimento
-
-**Tech:** JavaScript, EJS, CSS  
-**Last update:** 04 de jan. de 2026 | 💬 _"Atualizacao implemntacao de Ajax/Fetch"_
+**Tech Stack:** Java  
+**Last updated:** Jan 17, 2026  
+💬 _"Adiciona documentacao: README, Manual do Usuario e Manual..."_
 
 ---
 
-### [criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
+### 🔹 [Gestao_de_Receitas](https://github.com/EversonRubira/Gestao_de_Receitas)
+Backend development project
+
+**Tech Stack:** JavaScript, EJS, CSS  
+**Last updated:** Jan 4, 2026  
+💬 _"Atualizacao implemntacao de Ajax/Fetch"_
+
+---
+
+### 🔹 [criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
 A simple Node.js web application that displays the top 10 cryptocurrencies in real time using the public CoinGecko API. Built for educational purposes with clean code, dynamic views, and no frameworks.
 
-**Tech:** HTML, JavaScript, CSS  
-**Last update:** 14 de nov. de 2025 | 💬 _"Merge branch 'main' of https://github.com/EversonRubira/c..."_
+**Tech Stack:** HTML, JavaScript, CSS  
+**Last updated:** Nov 14, 2025  
+💬 _"Merge branch 'main' of https://github.com/EversonRubira/c..."_
 
 ---
 
-### [FitCheck](https://github.com/EversonRubira/FitCheck)
-Projeto em desenvolvimento
+### 🔹 [FitCheck](https://github.com/EversonRubira/FitCheck)
+Backend development project
 
-**Tech:** JavaScript, HTML, CSS  
-**Last update:** 14 de nov. de 2025 | 💬 _"Update README.md"_
+**Tech Stack:** JavaScript, HTML, CSS  
+**Last updated:** Nov 14, 2025  
+💬 _"Update README.md"_
 
 ---
 
