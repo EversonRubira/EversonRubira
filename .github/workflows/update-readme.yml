@@ -1,0 +1,166 @@
+name: Update README with Recent Projects
+
+on:
+  schedule:
+    # Roda todo dia às 00:00 UTC (01:00 em Portugal)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Permite executar manualmente
+  push:
+    branches: [main]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Update README with recent projects
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = 'EversonRubira';
+            
+            console.log('🔍 Buscando repositórios...');
+            
+            // Buscar todos os repositórios públicos ordenados por último push
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: owner,
+              sort: 'pushed',
+              direction: 'desc',
+              per_page: 100
+            });
+            
+            console.log(`📦 Total de repositórios encontrados: ${repos.length}`);
+            
+            // Filtrar repositórios próprios (não forks) e excluir o repo do perfil
+            const recentRepos = repos
+              .filter(repo => !repo.fork && repo.name !== 'EversonRubira')
+              .slice(0, 4);
+            
+            console.log('✅ Repositórios selecionados:');
+            recentRepos.forEach(repo => console.log(`   - ${repo.name}`));
+            
+            // Gerar markdown para cada repositório
+            let content = '';
+            
+            for (const repo of recentRepos) {
+              console.log(`\n📝 Processando: ${repo.name}`);
+              
+              // Buscar linguagens do repositório
+              const { data: languages } = await github.rest.repos.listLanguages({
+                owner,
+                repo: repo.name
+              });
+              
+              // Pegar as 3 principais linguagens
+              const topLangs = Object.keys(languages).slice(0, 3);
+              const techStack = topLangs.length > 0 ? topLangs.join(', ') : repo.language || 'N/A';
+              
+              // Formatar data do último push
+              const lastPush = new Date(repo.pushed_at).toLocaleDateString('pt-BR', {
+                day: '2-digit',
+                month: 'short',
+                year: 'numeric'
+              });
+              
+              // Buscar último commit para ter contexto adicional
+              let lastCommitMsg = '';
+              try {
+                const { data: commits } = await github.rest.repos.listCommits({
+                  owner,
+                  repo: repo.name,
+                  per_page: 1
+                });
+                
+                if (commits.length > 0) {
+                  lastCommitMsg = commits[0].commit.message.split('\n')[0]; // Primeira linha
+                  // Limitar tamanho da mensagem
+                  if (lastCommitMsg.length > 60) {
+                    lastCommitMsg = lastCommitMsg.substring(0, 57) + '...';
+                  }
+                }
+              } catch (error) {
+                console.log(`   ⚠️ Não foi possível buscar commits: ${error.message}`);
+              }
+              
+              // Construir o bloco markdown
+              content += `### [${repo.name}](${repo.html_url})`;
+              
+              // Adicionar badge de estrelas se tiver
+              if (repo.stargazers_count > 0) {
+                content += ` ⭐`;
+              }
+              
+              content += `\n`;
+              content += `${repo.description || 'Projeto em desenvolvimento'}\n\n`;
+              content += `**Tech:** ${techStack}`;
+              
+              // Adicionar informações adicionais
+              if (repo.stargazers_count > 0 || repo.forks_count > 0) {
+                content += ` | **Stars:** ⭐ ${repo.stargazers_count}`;
+                if (repo.forks_count > 0) {
+                  content += ` | **Forks:** 🍴 ${repo.forks_count}`;
+                }
+              }
+              
+              content += `  \n**Last update:** ${lastPush}`;
+              
+              if (lastCommitMsg) {
+                content += ` | 💬 _"${lastCommitMsg}"_`;
+              }
+              
+              content += `\n\n---\n\n`;
+            }
+            
+            console.log('\n📖 Lendo README atual...');
+            
+            // Ler README atual
+            const { data: readmeData } = await github.rest.repos.getContent({
+              owner,
+              repo: 'EversonRubira',
+              path: 'README.md'
+            });
+            
+            const readme = Buffer.from(readmeData.content, 'base64').toString('utf-8');
+            
+            // Substituir conteúdo entre os marcadores
+            const startMarker = '<!-- RECENT_PROJECTS:START -->';
+            const endMarker = '<!-- RECENT_PROJECTS:END -->';
+            
+            const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'g');
+            
+            if (!regex.test(readme)) {
+              console.error('❌ Marcadores não encontrados no README!');
+              core.setFailed('Marcadores <!-- RECENT_PROJECTS:START --> e <!-- RECENT_PROJECTS:END --> não encontrados');
+              return;
+            }
+            
+            const newReadme = readme.replace(
+              regex,
+              `${startMarker}\n${content}${endMarker}`
+            );
+            
+            // Verificar se houve mudanças
+            if (readme === newReadme) {
+              console.log('✨ Nenhuma mudança detectada. README já está atualizado!');
+              return;
+            }
+            
+            console.log('💾 Atualizando README...');
+            
+            // Atualizar README
+            await github.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo: 'EversonRubira',
+              path: 'README.md',
+              message: '🤖 Auto-update: Recent projects updated',
+              content: Buffer.from(newReadme).toString('base64'),
+              sha: readmeData.sha
+            });
+            
+            console.log('✅ README atualizado com sucesso!');
