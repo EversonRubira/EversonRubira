@@ -15,29 +15,38 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
-### [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) 
-Mental health tracking REST API with Spring Security JWT authentication  
-**Tech:** Java 17, Spring Boot, MySQL, Spring Security, JUnit  
-**Focus:** Relational modeling, security best practices, RESTful design  
-**Highlights:** User authentication, emotional state tracking with trend analysis, personalized wellness recommendations
+### [Gestao_de_Tarefas-Estudos](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
+Projeto em desenvolvimento
 
-### [StudyFlow](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
-Android app for managing academic workload and study sessions  
-**Tech:** Kotlin, Android Studio, Room Database  
-**Focus:** State management, local persistence, mobile UX patterns  
-**Highlights:** Task scheduling, time tracking, performance analytics
+**Tech:** Java  
+**Last update:** 17 de jan. de 2026 | 💬 _"Adiciona documentacao: README, Manual do Usuario e Manual..."_
 
-### [Boardly](https://github.com/EversonRubira/Boardly)
-Project management MVP applying **Clean Architecture** and **DDD**  
-**Tech:** Java 17, Spring Boot, MongoDB, Docker  
-**Focus:** Domain separation, hexagonal architecture, NoSQL aggregations  
-**Highlights:** Team collaboration features, task workflows, MongoDB optimization
+---
 
-### [Criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
-Real-time cryptocurrency tracker consuming CoinGecko API  
-**Tech:** Node.js, Express, REST APIs  
-**Focus:** Async operations, external API integration, data transformation  
-**Highlights:** Live price updates, historical data visualization
+### [Gestao_de_Receitas](https://github.com/EversonRubira/Gestao_de_Receitas)
+Projeto em desenvolvimento
+
+**Tech:** JavaScript, EJS, CSS  
+**Last update:** 04 de jan. de 2026 | 💬 _"Atualizacao implemntacao de Ajax/Fetch"_
+
+---
+
+### [criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
+A simple Node.js web application that displays the top 10 cryptocurrencies in real time using the public CoinGecko API. Built for educational purposes with clean code, dynamic views, and no frameworks.
+
+**Tech:** HTML, JavaScript, CSS  
+**Last update:** 14 de nov. de 2025 | 💬 _"Merge branch 'main' of https://github.com/EversonRubira/c..."_
+
+---
+
+### [FitCheck](https://github.com/EversonRubira/FitCheck)
+Projeto em desenvolvimento
+
+**Tech:** JavaScript, HTML, CSS  
+**Last update:** 14 de nov. de 2025 | 💬 _"Update README.md"_
+
+---
+
 <!-- RECENT_PROJECTS:END -->
 
 ---
