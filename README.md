@@ -15,6 +15,15 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
+O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
+
+**Tech Stack:** Java  
+**Last updated:** Jan 20, 2026  
+💬 _"Refine README documentation and remove filler text"_
+
+---
+
 ### 🔹 [Gestao_de_Tarefas-Estudos](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
 Backend development project
 
@@ -39,15 +48,6 @@ A simple Node.js web application that displays the top 10 cryptocurrencies in re
 **Tech Stack:** HTML, JavaScript, CSS  
 **Last updated:** Nov 14, 2025  
 💬 _"Merge branch 'main' of https://github.com/EversonRubira/c..."_
-
----
-
-### 🔹 [FitCheck](https://github.com/EversonRubira/FitCheck)
-Backend development project
-
-**Tech Stack:** JavaScript, HTML, CSS  
-**Last updated:** Nov 14, 2025  
-💬 _"Update README.md"_
 
 ---
 
