@@ -15,6 +15,15 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
+Landing Page Profissional
+
+**Tech Stack:** HTML  
+**Last updated:** Jan 29, 2026  
+💬 _"Update greeting from 'Hello' to 'Goodbye'"_
+
+---
+
 ### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
 O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
 
@@ -39,15 +48,6 @@ Backend development project
 **Tech Stack:** JavaScript, EJS, CSS  
 **Last updated:** Jan 4, 2026  
 💬 _"Atualizacao implemntacao de Ajax/Fetch"_
-
----
-
-### 🔹 [criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs)
-A simple Node.js web application that displays the top 10 cryptocurrencies in real time using the public CoinGecko API. Built for educational purposes with clean code, dynamic views, and no frameworks.
-
-**Tech Stack:** HTML, JavaScript, CSS  
-**Last updated:** Nov 14, 2025  
-💬 _"Merge branch 'main' of https://github.com/EversonRubira/c..."_
 
 ---
 
