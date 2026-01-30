@@ -19,8 +19,8 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 Landing Page Profissional
 
 **Tech Stack:** HTML  
-**Last updated:** Jan 29, 2026  
-💬 _"Update greeting from 'Hello' to 'Goodbye'"_
+**Last updated:** Jan 30, 2026  
+💬 _"Update print statement from 'Hello' to 'Goodbye'"_
 
 ---
 
