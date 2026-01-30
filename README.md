@@ -6,7 +6,7 @@
 
 **Building scalable systems with clean architecture principles**  
 Career transition: Business Management → Backend Development  
-**Seeking backend internship opportunities | Available from February 2026**
+**Backend Developer (Java/Spring Boot) + 15 Years International Trade Operations | B2B Systems for Import/Export Companies**
 
 Focused on designing robust APIs, implementing domain-driven solutions, and working with modern backend technologies to solve real-world problems.
 
