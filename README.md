@@ -20,7 +20,7 @@ Landing Page Profissional
 
 **Tech Stack:** HTML  
 **Last updated:** Jan 30, 2026  
-💬 _"Update print statement from 'Hello' to 'Goodbye'"_
+💬 _"Update index.html"_
 
 ---
 
