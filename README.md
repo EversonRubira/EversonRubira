@@ -19,8 +19,8 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 Landing Page Profissional
 
 **Tech Stack:** HTML  
-**Last updated:** Jan 30, 2026  
-💬 _"Update index.html"_
+**Last updated:** Jan 31, 2026  
+💬 _"Update greeting from 'Final View'"_
 
 ---
 
