@@ -15,6 +15,15 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [DataPulse](https://github.com/EversonRubira/DataPulse)
+Backend development project
+
+**Tech Stack:** HTML  
+**Last updated:** Feb 12, 2026  
+💬 _"Merge pull request #1 from EversonRubira/claude/fix-paral..."_
+
+---
+
 ### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
 Landing Page Profissional
 
@@ -39,15 +48,6 @@ Backend development project
 **Tech Stack:** Java  
 **Last updated:** Jan 17, 2026  
 💬 _"Adiciona documentacao: README, Manual do Usuario e Manual..."_
-
----
-
-### 🔹 [Gestao_de_Receitas](https://github.com/EversonRubira/Gestao_de_Receitas)
-Backend development project
-
-**Tech Stack:** JavaScript, EJS, CSS  
-**Last updated:** Jan 4, 2026  
-💬 _"Atualizacao implemntacao de Ajax/Fetch"_
 
 ---
 
