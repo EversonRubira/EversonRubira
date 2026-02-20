@@ -4,8 +4,8 @@
 
 # Everson Rubira — Backend Developer
 
-**Building scalable systems with clean architecture principles**  
-Career transition: Business Management → Backend Development  
+**Building scalable systems with clean architecture principles**
+Career transition: Business Management → Backend Development
 **Backend Developer (Java/Spring Boot) +15 years International Trade Operations | B2B Systems for Import/Export Companies**
 
 Focused on designing robust APIs, implementing domain-driven solutions, and working with modern backend technologies to solve real-world problems.
@@ -15,54 +15,53 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
-### 🔹 [EuroAmerica-demo](https://github.com/EversonRubira/EuroAmerica-demo)
-Backend development project
-
-**Tech Stack:** HTML  
-**Last updated:** Feb 20, 2026  
-💬 _"Revise README.md section headings and formatting"_
-
----
-
 ### 🔹 [FreightForwarder-Demo](https://github.com/EversonRubira/FreightForwarder-Demo)
 Backend development project
 
-**Tech Stack:** HTML  
-**Last updated:** Feb 20, 2026  
-💬 _"Create README.md with project information"_
+**Tech Stack:** Java, Spring Boot, MySQL
+**Last updated:** Feb 19, 2026
+💬 _"feat: update freight calculation logic"_
+
+---
+
+### 🔹 [EuroAmerica-demo](https://github.com/EversonRubira/EuroAmerica-demo)
+Backend development project
+
+**Tech Stack:** Java, Spring Boot, MongoDB
+**Last updated:** Feb 19, 2026
+💬 _"feat: add dashboard initial structure"_
 
 ---
 
 ### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
-Landing Page Profissional
+Professional Landing Page
 
-**Tech Stack:** HTML  
-**Last updated:** Feb 2, 2026  
-💬 _"Merge pull request #6 from EversonRubira/claude/revert-gi..."_
+**Tech Stack:** HTML, CSS
+**Last updated:** Feb 2, 2026
+💬 _"docs: update profile information"_
 
 ---
 
 ### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
-O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
+Mental health management application designed to help users improve their well-being.
 
-**Tech Stack:** Java  
-**Last updated:** Jan 20, 2026  
-💬 _"Refine README documentation and remove filler text"_
+**Tech Stack:** Java, Spring Boot
+**Last updated:** Jan 20, 2026
+💬 _"docs: refine README documentation"_
 
 ---
-
 <!-- RECENT_PROJECTS:END -->
 
 ---
 
 ## Tech Stack & Competencies
 
-**Languages:** Java 17, JavaScript, Python, Go (learning)  
-**Backend:** Spring Boot, Spring Security, Node.js, Express  
-**Databases:** MySQL, MongoDB  
-**Architecture:** Clean Architecture, Domain-Driven Design (DDD), Hexagonal Architecture  
-**DevOps & Tools:** Docker, Git, Maven, REST API design  
-**Testing:** JUnit, Mockito, Integration Testing, QA automation practices  
+**Languages:** Java 17, JavaScript, Python, Go (learning)
+**Backend:** Spring Boot, Spring Security, Node.js, Express
+**Databases:** MySQL, MongoDB
+**Architecture:** Clean Architecture, Domain-Driven Design (DDD), Hexagonal Architecture
+**DevOps & Tools:** Docker, Git, Maven, REST API design
+**Testing:** JUnit, Mockito, Integration Testing, QA automation practices
 **Currently Learning:** Advanced JWT authentication, Go backend development, Docker orchestration
 
 <p align="center">
@@ -85,17 +84,17 @@ O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários 
 
 ## Hands-on Experience
 
-**Architectural Patterns:** Implemented Clean Architecture and DDD in production-ready projects, separating domain logic from infrastructure concerns  
-**API Development:** Built RESTful APIs with authentication, authorization, and proper error handling  
-**Database Design:** Designed normalized relational schemas and optimized NoSQL document structures  
-**Testing & Quality:** Developed unit and integration tests following TDD principles, currently advancing in QA automation  
+**Architectural Patterns:** Implemented Clean Architecture and DDD in production-ready projects, separating domain logic from infrastructure concerns
+**API Development:** Built RESTful APIs with authentication, authorization, and proper error handling
+**Database Design:** Designed normalized relational schemas and optimized NoSQL document structures
+**Testing & Quality:** Developed unit and integration tests following TDD principles, currently advancing in QA automation
 **Version Control:** Git workflows with meaningful commit messages and branch strategies
 
 ---
 
 ## Education & Background
 
-**Systems Development** @ Instituto Politécnico de Setúbal (3rd semester)  
+**Systems Development** @ Instituto Politécnico de Setúbal (3rd semester)
 Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 
 **Specialized Training:**
@@ -103,7 +102,7 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 - QA: Processes and Test Automation (Alura, in progress)
 - Docker & AWS Deployment (Alura)
 
-**Previous Career:** +15 years in Business Management & International Trade  
+**Previous Career:** +15 years in Business Management & International Trade
 → Applying strategic thinking, data analysis, and process optimization to software development
 
 ---
