@@ -11,7 +11,7 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -24,9 +24,45 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const owner = 'EversonRubira';
-            
+
+            // Map GitHub topics to display names for frameworks/databases/tools
+            const TOPIC_DISPLAY_NAMES = {
+              'spring-boot':    'Spring Boot',
+              'spring':         'Spring Boot',
+              'spring-security':'Spring Security',
+              'mysql':          'MySQL',
+              'mongodb':        'MongoDB',
+              'postgresql':     'PostgreSQL',
+              'redis':          'Redis',
+              'docker':         'Docker',
+              'nodejs':         'Node.js',
+              'node':           'Node.js',
+              'express':        'Express',
+              'react':          'React',
+              'angular':        'Angular',
+              'vue':            'Vue.js',
+              'fastapi':        'FastAPI',
+              'django':         'Django',
+              'flask':          'Flask',
+              'hibernate':      'Hibernate',
+              'jpa':            'JPA',
+              'kafka':          'Kafka',
+              'rabbitmq':       'RabbitMQ',
+              'aws':            'AWS',
+              'kubernetes':     'Kubernetes',
+            };
+
+            // Languages considered "backend/primary" — HTML/CSS are excluded when these are present
+            const BACKEND_LANGUAGES = new Set([
+              'Java', 'Python', 'Go', 'Rust', 'C', 'C++', 'C#',
+              'TypeScript', 'JavaScript', 'Kotlin', 'Scala', 'Ruby', 'PHP'
+            ]);
+
+            // Languages to hide when a backend language is detected
+            const MARKUP_LANGUAGES = new Set(['HTML', 'CSS', 'SCSS', 'Less']);
+
             console.log('🔍 Fetching repositories...');
-            
+
             // Fetch all public repositories sorted by last push
             const { data: repos } = await github.rest.repos.listForUser({
               username: owner,
@@ -34,58 +70,66 @@ jobs:
               direction: 'desc',
               per_page: 100
             });
-            
+
             console.log(`📦 Total repositories found: ${repos.length}`);
-            
+
             // Filter own repositories (not forks) and exclude profile repo
             const recentRepos = repos
               .filter(repo => !repo.fork && repo.name !== 'EversonRubira')
               .slice(0, 4);
-            
+
             console.log('✅ Selected repositories:');
             recentRepos.forEach(repo => console.log(`   - ${repo.name}`));
-            
-            // Month names in English
-            const monthNames = {
-              'jan.': 'Jan',
-              'fev.': 'Feb',
-              'mar.': 'Mar',
-              'abr.': 'Apr',
-              'mai.': 'May',
-              'jun.': 'Jun',
-              'jul.': 'Jul',
-              'ago.': 'Aug',
-              'set.': 'Sep',
-              'out.': 'Oct',
-              'nov.': 'Nov',
-              'dez.': 'Dec'
-            };
-            
+
             // Generate markdown for each repository
             let content = '';
-            
+
             for (const repo of recentRepos) {
               console.log(`\n📝 Processing: ${repo.name}`);
-              
-              // Fetch repository languages
+
+              // Fetch full repo details (includes topics)
+              const { data: repoDetails } = await github.rest.repos.get({
+                owner,
+                repo: repo.name
+              });
+              const topics = repoDetails.topics || [];
+              console.log(`   Topics: ${topics.join(', ') || '(none)'}`);
+
+              // Fetch repository languages (returns { Language: bytes })
               const { data: languages } = await github.rest.repos.listLanguages({
                 owner,
                 repo: repo.name
               });
-              
-              // Get top 3 languages
-              const topLangs = Object.keys(languages).slice(0, 3);
-              const techStack = topLangs.length > 0 ? topLangs.join(', ') : repo.language || 'N/A';
-              
+
+              // Determine if any backend language is present
+              const detectedLangs = Object.keys(languages);
+              const hasBackend = detectedLangs.some(l => BACKEND_LANGUAGES.has(l));
+
+              // Filter out markup languages if a backend language exists
+              const filteredLangs = hasBackend
+                ? detectedLangs.filter(l => !MARKUP_LANGUAGES.has(l)).slice(0, 2)
+                : detectedLangs.slice(0, 2);
+
+              // Build framework/db list from topics
+              const topicStack = topics
+                .filter(t => TOPIC_DISPLAY_NAMES[t])
+                .map(t => TOPIC_DISPLAY_NAMES[t]);
+
+              // Combine: languages first, then frameworks/databases from topics
+              const combined = [...filteredLangs, ...topicStack];
+              // Deduplicate while preserving order
+              const techStack = [...new Set(combined)].join(', ') || repo.language || 'N/A';
+              console.log(`   Tech Stack: ${techStack}`);
+
               // Format last push date in English
               const lastPushDate = new Date(repo.pushed_at);
-              let formattedDate = lastPushDate.toLocaleDateString('en-US', {
+              const formattedDate = lastPushDate.toLocaleDateString('en-US', {
                 day: 'numeric',
                 month: 'short',
                 year: 'numeric'
               });
-              
-              // Fetch last commit for additional context
+
+              // Fetch last commit message
               let lastCommitMsg = '';
               try {
                 const { data: commits } = await github.rest.repos.listCommits({
@@ -93,10 +137,8 @@ jobs:
                   repo: repo.name,
                   per_page: 1
                 });
-                
                 if (commits.length > 0) {
                   lastCommitMsg = commits[0].commit.message.split('\n')[0];
-                  // Limit message length
                   if (lastCommitMsg.length > 60) {
                     lastCommitMsg = lastCommitMsg.substring(0, 57) + '...';
                   }
@@ -104,79 +146,65 @@ jobs:
               } catch (error) {
                 console.log(`   ⚠️ Could not fetch commits: ${error.message}`);
               }
-              
+
               // Build markdown block
               content += `### 🔹 [${repo.name}](${repo.html_url})`;
-              
-              // Add star badge if has stars
               if (repo.stargazers_count > 0) {
                 content += ` ⭐ ${repo.stargazers_count}`;
               }
-              
               content += `\n`;
-              
-              // Description
+
               const description = repo.description || 'Backend development project';
               content += `${description}\n\n`;
-              
-              // Tech stack
+
               content += `**Tech Stack:** ${techStack}`;
-              
-              // Add forks if any
               if (repo.forks_count > 0) {
                 content += ` • **Forks:** ${repo.forks_count}`;
               }
-              
               content += `  \n`;
-              
-              // Last update
+
               content += `**Last updated:** ${formattedDate}`;
-              
-              // Last commit message
               if (lastCommitMsg) {
                 content += `  \n💬 _"${lastCommitMsg}"_`;
               }
-              
+
               content += `\n\n---\n\n`;
             }
-            
+
             console.log('\n📖 Reading current README...');
-            
+
             // Read current README
             const { data: readmeData } = await github.rest.repos.getContent({
               owner,
               repo: 'EversonRubira',
               path: 'README.md'
             });
-            
+
             const readme = Buffer.from(readmeData.content, 'base64').toString('utf-8');
-            
+
             // Replace content between markers
             const startMarker = '<!-- RECENT_PROJECTS:START -->';
             const endMarker = '<!-- RECENT_PROJECTS:END -->';
-            
             const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'g');
-            
+
             if (!regex.test(readme)) {
               console.error('❌ Markers not found in README!');
               core.setFailed('Markers <!-- RECENT_PROJECTS:START --> and <!-- RECENT_PROJECTS:END --> not found');
               return;
             }
-            
+
             const newReadme = readme.replace(
               regex,
               `${startMarker}\n${content}${endMarker}`
             );
-            
-            // Check if there were changes
+
             if (readme === newReadme) {
               console.log('✨ No changes detected. README is already up to date!');
               return;
             }
-            
+
             console.log('💾 Updating README...');
-            
-            // Update README
+
             await github.rest.repos.createOrUpdateFileContents({
               owner,
               repo: 'EversonRubira',
@@ -185,5 +213,5 @@ jobs:
               content: Buffer.from(newReadme).toString('base64'),
               sha: readmeData.sha
             });
-            
+
             console.log('✅ README updated successfully!');
