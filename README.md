@@ -15,6 +15,24 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [FreightForwarder-Demo](https://github.com/EversonRubira/FreightForwarder-Demo)
+Backend development project
+
+**Tech Stack:** HTML  
+**Last updated:** Feb 19, 2026  
+💬 _"Update print statement Freightforwarder"_
+
+---
+
+### 🔹 [EuroAmerica-demo](https://github.com/EversonRubira/EuroAmerica-demo)
+Backend development project
+
+**Tech Stack:** HTML  
+**Last updated:** Feb 19, 2026  
+💬 _"Add initial HTML structure for dashboard"_
+
+---
+
 ### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
 Landing Page Profissional
 
@@ -30,24 +48,6 @@ O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários 
 **Tech Stack:** Java  
 **Last updated:** Jan 20, 2026  
 💬 _"Refine README documentation and remove filler text"_
-
----
-
-### 🔹 [Gestao_de_Tarefas-Estudos](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
-Backend development project
-
-**Tech Stack:** Java  
-**Last updated:** Jan 17, 2026  
-💬 _"Adiciona documentacao: README, Manual do Usuario e Manual..."_
-
----
-
-### 🔹 [Gestao_de_Receitas](https://github.com/EversonRubira/Gestao_de_Receitas)
-Backend development project
-
-**Tech Stack:** JavaScript, EJS, CSS  
-**Last updated:** Jan 4, 2026  
-💬 _"Atualizacao implemntacao de Ajax/Fetch"_
 
 ---
 
