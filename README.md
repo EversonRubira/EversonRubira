@@ -6,7 +6,7 @@
 
 **Building scalable systems with clean architecture principles**  
 Career transition: Business Management → Backend Development  
-**Backend Developer (Java/Spring Boot) + 15 Years International Trade Operations | B2B Systems for Import/Export Companies**
+**Backend Developer (Java/Spring Boot) +15 years International Trade Operations | B2B Systems for Import/Export Companies**
 
 Focused on designing robust APIs, implementing domain-driven solutions, and working with modern backend technologies to solve real-world problems.
 
@@ -18,39 +18,38 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ### 🔹 [FreightForwarder-Demo](https://github.com/EversonRubira/FreightForwarder-Demo)
 Backend development project
 
-**Tech Stack:** HTML  
+**Tech Stack:** Java, Spring Boot, MySQL  
 **Last updated:** Feb 19, 2026  
-💬 _"Update print statement Freightforwarder"_
+💬 _"feat: update freight calculation logic"_
 
 ---
 
 ### 🔹 [EuroAmerica-demo](https://github.com/EversonRubira/EuroAmerica-demo)
 Backend development project
 
-**Tech Stack:** HTML  
+**Tech Stack:** Java, Spring Boot, MongoDB  
 **Last updated:** Feb 19, 2026  
-💬 _"Add initial HTML structure for dashboard"_
+💬 _"feat: add dashboard initial structure"_
 
 ---
 
 ### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
-Landing Page Profissional
+Professional Landing Page
 
-**Tech Stack:** HTML  
+**Tech Stack:** HTML, CSS  
 **Last updated:** Feb 2, 2026  
-💬 _"Merge pull request #6 from EversonRubira/claude/revert-gi..."_
+💬 _"docs: update profile information"_
 
 ---
 
 ### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
-O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
+Mental health management application designed to help users improve their well-being.
 
-**Tech Stack:** Java  
+**Tech Stack:** Java, Spring Boot  
 **Last updated:** Jan 20, 2026  
-💬 _"Refine README documentation and remove filler text"_
+💬 _"docs: refine README documentation"_
 
 ---
-
 <!-- RECENT_PROJECTS:END -->
 
 ---
@@ -79,7 +78,6 @@ O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários 
   <img alt="Maven" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"/>
   <img alt="IntelliJ" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"/>
   <img alt="VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
-  <img alt="Android Studio" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"/>
 </p>
 
 ---
@@ -104,16 +102,16 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 - QA: Processes and Test Automation (Alura, in progress)
 - Docker & AWS Deployment (Alura)
 
-**Previous Career:** 5+ years in Business Management & International Trade  
+**Previous Career:** +15 years in Business Management & International Trade  
 → Applying strategic thinking, data analysis, and process optimization to software development
 
 ---
 
 ## Connect with me
 
-[![LinkedIn][1.1]][1] &nbsp;
-[![Gmail][2.1]][2] &nbsp;
-[![Discord][3.1]][3]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eversonrubira)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:eversonrubira@gmail.com)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/768512954731462700)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=blueviolet&label=Profile+Views&style=flat" alt="Profile views"/>
@@ -121,16 +119,9 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 
 <p align="center">
   <a href="https://github.com/EversonRubira">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=EversonRubira&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Stats"/>
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EversonRubira&layout=compact&langs_count=7&theme=tokyonight" alt="Top langs"/>
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=EversonRubira&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Stats"/>
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EversonRubira&layout=compact&langs_count=7&theme=github_dark" alt="Top langs"/>
   </a>
 </p>
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EversonRubira&theme=github-compact&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-[1.1]: https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin
-[1]: https://www.linkedin.com/in/eversonrubira
-[2.1]: https://img.shields.io/badge/Gmail-D14836?logo=gmail
-[2]: mailto:eversonrubira@gmail.com
-[3.1]: https://img.shields.io/badge/Discord-7289DA?logo=discord
-[3]: https://discordapp.com/users/768512954731462700
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EversonRubira&theme=github-light&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
