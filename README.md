@@ -115,8 +115,8 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/768512954731462700)
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=blueviolet&label=Profile+Views&style=flat" alt="Profile views"/>
-
+  <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=007396&label=Profile+Views&style=flat" alt="Profile views"/>
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=EversonRubira&theme=react-dark&hide_border=true&area=true&custom_title=Fluxo%20de%20Contribuições" width="700"/>
