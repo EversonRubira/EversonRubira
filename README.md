@@ -15,41 +15,42 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
-### 🔹 [FreightForwarder-Demo](https://github.com/EversonRubira/FreightForwarder-Demo)
-Backend development project
-
-**Tech Stack:** Java, Spring Boot, MySQL  
-**Last updated:** Feb 19, 2026  
-💬 _"feat: update freight calculation logic"_
-
----
-
 ### 🔹 [EuroAmerica-demo](https://github.com/EversonRubira/EuroAmerica-demo)
 Backend development project
 
-**Tech Stack:** Java, Spring Boot, MongoDB  
-**Last updated:** Feb 19, 2026  
-💬 _"feat: add dashboard initial structure"_
+**Tech Stack:** HTML  
+**Last updated:** Feb 20, 2026  
+💬 _"Revise README.md section headings and formatting"_
+
+---
+
+### 🔹 [FreightForwarder-Demo](https://github.com/EversonRubira/FreightForwarder-Demo)
+Backend development project
+
+**Tech Stack:** HTML  
+**Last updated:** Feb 20, 2026  
+💬 _"Create README.md with project information"_
 
 ---
 
 ### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
-Professional Landing Page
+Landing Page Profissional
 
-**Tech Stack:** HTML, CSS  
+**Tech Stack:** HTML  
 **Last updated:** Feb 2, 2026  
-💬 _"docs: update profile information"_
+💬 _"Merge pull request #6 from EversonRubira/claude/revert-gi..."_
 
 ---
 
 ### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
-Mental health management application designed to help users improve their well-being.
+O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
 
-**Tech Stack:** Java, Spring Boot  
+**Tech Stack:** Java  
 **Last updated:** Jan 20, 2026  
-💬 _"docs: refine README documentation"_
+💬 _"Refine README documentation and remove filler text"_
 
 ---
+
 <!-- RECENT_PROJECTS:END -->
 
 ---
