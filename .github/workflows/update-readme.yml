@@ -25,84 +25,215 @@ jobs:
           script: |
             const owner = 'EversonRubira';
 
-            // Maps artifactId/groupId fragments found in pom.xml to display names
-            const POM_DEPENDENCY_MAP = [
-              { pattern: /spring-boot/i,              label: 'Spring Boot'      },
-              { pattern: /spring-security/i,          label: 'Spring Security'  },
-              { pattern: /spring-data-jpa/i,          label: 'Spring Data JPA'  },
-              { pattern: /mysql-connector/i,           label: 'MySQL'            },
-              { pattern: /com\.mysql/i,                label: 'MySQL'            },
-              { pattern: /spring-data-mongodb/i,       label: 'MongoDB'          },
-              { pattern: /mongodb-driver/i,            label: 'MongoDB'          },
-              { pattern: /postgresql/i,                label: 'PostgreSQL'       },
-              { pattern: /spring-data-redis/i,         label: 'Redis'            },
-              { pattern: /jedis/i,                     label: 'Redis'            },
-              { pattern: /kafka/i,                     label: 'Kafka'            },
-              { pattern: /rabbitmq|amqp/i,             label: 'RabbitMQ'         },
-              { pattern: /flyway/i,                    label: 'Flyway'           },
-              { pattern: /liquibase/i,                 label: 'Liquibase'        },
-              { pattern: /springdoc|swagger/i,         label: 'Swagger'          },
-              { pattern: /jjwt|java-jwt/i,             label: 'JWT'              },
-              { pattern: /docker/i,                    label: 'Docker'           },
+            // ── Dependency maps per ecosystem ──────────────────────────────────
+
+            // pom.xml (Java/Kotlin + Maven)
+            const POM_MAP = [
+              { pattern: /spring-boot/i,           label: 'Spring Boot'      },
+              { pattern: /spring-security/i,        label: 'Spring Security'  },
+              { pattern: /spring-data-jpa/i,        label: 'Spring Data JPA'  },
+              { pattern: /spring-data-mongodb/i,    label: 'MongoDB'          },
+              { pattern: /spring-data-redis/i,      label: 'Redis'            },
+              { pattern: /spring-data-elasticsearch/i, label: 'Elasticsearch' },
+              { pattern: /spring-cloud/i,           label: 'Spring Cloud'     },
+              { pattern: /mysql-connector|com\.mysql/i, label: 'MySQL'        },
+              { pattern: /mongodb-driver/i,         label: 'MongoDB'          },
+              { pattern: /postgresql/i,             label: 'PostgreSQL'       },
+              { pattern: /h2/i,                     label: 'H2'               },
+              { pattern: /jedis|lettuce/i,          label: 'Redis'            },
+              { pattern: /kafka/i,                  label: 'Kafka'            },
+              { pattern: /rabbitmq|amqp/i,          label: 'RabbitMQ'         },
+              { pattern: /flyway/i,                 label: 'Flyway'           },
+              { pattern: /liquibase/i,              label: 'Liquibase'        },
+              { pattern: /springdoc|swagger/i,      label: 'Swagger'          },
+              { pattern: /jjwt|java-jwt/i,          label: 'JWT'              },
+              { pattern: /mapstruct/i,              label: 'MapStruct'        },
+              { pattern: /lombok/i,                 label: 'Lombok'           },
+              { pattern: /quarkus/i,                label: 'Quarkus'          },
+              { pattern: /micronaut/i,              label: 'Micronaut'        },
+              { pattern: /kotlin/i,                 label: 'Kotlin'           },
             ];
 
-            // Languages considered backend — markup is hidden when these are present
+            // build.gradle or build.gradle.kts (Gradle)
+            const GRADLE_MAP = [
+              { pattern: /spring.boot/i,            label: 'Spring Boot'      },
+              { pattern: /spring.security/i,        label: 'Spring Security'  },
+              { pattern: /spring.data.jpa/i,        label: 'Spring Data JPA'  },
+              { pattern: /spring.data.mongodb/i,    label: 'MongoDB'          },
+              { pattern: /spring.data.redis/i,      label: 'Redis'            },
+              { pattern: /spring.cloud/i,           label: 'Spring Cloud'     },
+              { pattern: /mysql/i,                  label: 'MySQL'            },
+              { pattern: /mongodb/i,                label: 'MongoDB'          },
+              { pattern: /postgresql/i,             label: 'PostgreSQL'       },
+              { pattern: /kafka/i,                  label: 'Kafka'            },
+              { pattern: /rabbitmq/i,               label: 'RabbitMQ'         },
+              { pattern: /kotlin/i,                 label: 'Kotlin'           },
+              { pattern: /quarkus/i,                label: 'Quarkus'          },
+              { pattern: /micronaut/i,              label: 'Micronaut'        },
+              { pattern: /jjwt|java-jwt/i,          label: 'JWT'              },
+            ];
+
+            // package.json (Node.js / frontend)
+            const NPM_MAP = [
+              { pattern: /\"express\"/i,            label: 'Express'          },
+              { pattern: /\"fastify\"/i,            label: 'Fastify'          },
+              { pattern: /\"@nestjs\/core\"/i,      label: 'NestJS'           },
+              { pattern: /\"koa\"/i,                label: 'Koa'              },
+              { pattern: /\"hapi\"/i,               label: 'Hapi'             },
+              { pattern: /\"react\"/i,              label: 'React'            },
+              { pattern: /\"next\"/i,               label: 'Next.js'          },
+              { pattern: /\"vue\"/i,                label: 'Vue.js'           },
+              { pattern: /\"nuxt\"/i,               label: 'Nuxt.js'          },
+              { pattern: /\"@angular\/core\"/i,     label: 'Angular'          },
+              { pattern: /\"svelte\"/i,             label: 'Svelte'           },
+              { pattern: /\"mongoose\"/i,           label: 'MongoDB'          },
+              { pattern: /\"mongodb\"/i,            label: 'MongoDB'          },
+              { pattern: /\"pg\"/i,                 label: 'PostgreSQL'       },
+              { pattern: /\"mysql2?\"/i,            label: 'MySQL'            },
+              { pattern: /\"redis\"/i,              label: 'Redis'            },
+              { pattern: /\"ioredis\"/i,            label: 'Redis'            },
+              { pattern: /\"prisma\"/i,             label: 'Prisma'           },
+              { pattern: /\"typeorm\"/i,            label: 'TypeORM'          },
+              { pattern: /\"sequelize\"/i,          label: 'Sequelize'        },
+              { pattern: /\"drizzle-orm\"/i,        label: 'Drizzle'          },
+              { pattern: /\"graphql\"/i,            label: 'GraphQL'          },
+              { pattern: /\"socket\.io\"/i,         label: 'Socket.io'        },
+              { pattern: /\"jsonwebtoken\"/i,       label: 'JWT'              },
+              { pattern: /\"typescript\"/i,         label: 'TypeScript'       },
+            ];
+
+            // requirements.txt or pyproject.toml (Python)
+            const PYTHON_MAP = [
+              { pattern: /django/i,                 label: 'Django'           },
+              { pattern: /flask/i,                  label: 'Flask'            },
+              { pattern: /fastapi/i,                label: 'FastAPI'          },
+              { pattern: /tornado/i,                label: 'Tornado'          },
+              { pattern: /aiohttp/i,                label: 'aiohttp'          },
+              { pattern: /sqlalchemy/i,             label: 'SQLAlchemy'       },
+              { pattern: /pymongo/i,                label: 'MongoDB'          },
+              { pattern: /motor/i,                  label: 'MongoDB'          },
+              { pattern: /psycopg2/i,               label: 'PostgreSQL'       },
+              { pattern: /mysql.connector|pymysql/i,label: 'MySQL'            },
+              { pattern: /redis/i,                  label: 'Redis'            },
+              { pattern: /celery/i,                 label: 'Celery'           },
+              { pattern: /pydantic/i,               label: 'Pydantic'         },
+              { pattern: /alembic/i,                label: 'Alembic'          },
+              { pattern: /tortoise/i,               label: 'Tortoise ORM'     },
+            ];
+
+            // go.mod (Go)
+            const GO_MAP = [
+              { pattern: /gin-gonic\/gin/i,         label: 'Gin'              },
+              { pattern: /labstack\/echo/i,          label: 'Echo'             },
+              { pattern: /gofiber\/fiber/i,          label: 'Fiber'            },
+              { pattern: /chi/i,                    label: 'Chi'              },
+              { pattern: /gorilla\/mux/i,            label: 'Gorilla Mux'     },
+              { pattern: /gorm/i,                   label: 'GORM'             },
+              { pattern: /mongo-driver/i,            label: 'MongoDB'          },
+              { pattern: /go-redis/i,                label: 'Redis'            },
+              { pattern: /kafka/i,                  label: 'Kafka'            },
+              { pattern: /rabbitmq/i,               label: 'RabbitMQ'         },
+              { pattern: /grpc/i,                   label: 'gRPC'             },
+              { pattern: /pgx|pq/i,                 label: 'PostgreSQL'       },
+              { pattern: /go-sql-driver\/mysql/i,   label: 'MySQL'            },
+            ];
+
+            // Languages considered "backend" — markup is hidden when these exist
             const BACKEND_LANGUAGES = new Set([
               'Java', 'Python', 'Go', 'Rust', 'C', 'C++', 'C#',
               'TypeScript', 'JavaScript', 'Kotlin', 'Scala', 'Ruby', 'PHP'
             ]);
-
             const MARKUP_LANGUAGES = new Set(['HTML', 'CSS', 'SCSS', 'Less']);
 
-            // Try to extract tech stack from pom.xml; returns null if not found
-            async function getTechStackFromPom(repoName) {
+            // ── Helpers ────────────────────────────────────────────────────────
+
+            // Fetch a file from a repo, return its text content or null
+            async function fetchFile(repoName, path) {
               try {
-                const { data: pomData } = await github.rest.repos.getContent({
-                  owner,
-                  repo: repoName,
-                  path: 'pom.xml'
-                });
-
-                const pom = Buffer.from(pomData.content, 'base64').toString('utf-8');
-                console.log(`   ✅ pom.xml found in ${repoName}`);
-
-                // Detect primary language (always Java if pom.xml exists)
-                const stack = ['Java'];
-
-                // Extract all <artifactId> and <groupId> values from dependencies
-                const artifactIds = [...pom.matchAll(/<artifactId>(.*?)<\/artifactId>/g)].map(m => m[1]);
-                const groupIds    = [...pom.matchAll(/<groupId>(.*?)<\/groupId>/g)].map(m => m[1]);
-                const allIds      = [...artifactIds, ...groupIds].join('\n');
-
-                // Match against known patterns (deduplicated)
-                for (const { pattern, label } of POM_DEPENDENCY_MAP) {
-                  if (pattern.test(allIds) && !stack.includes(label)) {
-                    stack.push(label);
-                  }
-                }
-
-                return stack.join(', ');
-              } catch (err) {
-                // 404 = no pom.xml; any other error is also treated as "not found"
-                console.log(`   ℹ️ No pom.xml in ${repoName} — falling back to language detection`);
+                const { data } = await github.rest.repos.getContent({ owner, repo: repoName, path });
+                return Buffer.from(data.content, 'base64').toString('utf-8');
+              } catch {
                 return null;
               }
             }
 
-            // Fallback: use GitHub language detection, filtering markup for backend projects
+            // Apply a pattern map against file content; return matched labels (deduped)
+            function matchLabels(content, map) {
+              const found = [];
+              for (const { pattern, label } of map) {
+                if (pattern.test(content) && !found.includes(label)) found.push(label);
+              }
+              return found;
+            }
+
+            // Detect tech stack by reading build/manifest files; returns null if nothing found
+            async function getTechStackFromFiles(repoName, primaryLanguage) {
+              // 1. Java / Kotlin — Maven
+              const pom = await fetchFile(repoName, 'pom.xml');
+              if (pom) {
+                const lang = /kotlin/i.test(pom) ? 'Kotlin' : 'Java';
+                const deps = matchLabels(pom, POM_MAP).filter(l => l !== 'Kotlin');
+                console.log(`   ✅ pom.xml detected (${lang})`);
+                return [lang, ...deps].join(', ');
+              }
+
+              // 2. Java / Kotlin — Gradle
+              const gradle = await fetchFile(repoName, 'build.gradle')
+                          ?? await fetchFile(repoName, 'build.gradle.kts');
+              if (gradle) {
+                const lang = /kotlin/i.test(gradle) || repoName.endsWith('.kts') ? 'Kotlin' : 'Java';
+                const deps = matchLabels(gradle, GRADLE_MAP).filter(l => l !== 'Kotlin');
+                console.log(`   ✅ build.gradle detected (${lang})`);
+                return [lang, ...deps].join(', ');
+              }
+
+              // 3. Node.js / Frontend — package.json
+              const pkg = await fetchFile(repoName, 'package.json');
+              if (pkg) {
+                let pkgJson;
+                try { pkgJson = JSON.parse(pkg); } catch { pkgJson = {}; }
+                const allDeps = JSON.stringify({
+                  ...pkgJson.dependencies,
+                  ...pkgJson.devDependencies
+                });
+                const hasTS = /"typescript"/.test(allDeps);
+                const lang  = hasTS ? 'TypeScript' : 'JavaScript';
+                const deps  = matchLabels(allDeps, NPM_MAP).filter(l => l !== 'TypeScript');
+                console.log(`   ✅ package.json detected (${lang})`);
+                return [lang, ...deps].join(', ');
+              }
+
+              // 4. Python — requirements.txt or pyproject.toml
+              const requirements = await fetchFile(repoName, 'requirements.txt')
+                                ?? await fetchFile(repoName, 'pyproject.toml');
+              if (requirements) {
+                const deps = matchLabels(requirements, PYTHON_MAP);
+                console.log(`   ✅ Python manifest detected`);
+                return ['Python', ...deps].join(', ');
+              }
+
+              // 5. Go — go.mod
+              const goMod = await fetchFile(repoName, 'go.mod');
+              if (goMod) {
+                const deps = matchLabels(goMod, GO_MAP);
+                console.log(`   ✅ go.mod detected`);
+                return ['Go', ...deps].join(', ');
+              }
+
+              return null; // no recognized build file
+            }
+
+            // Fallback: GitHub language detection with markup filter
             async function getTechStackFromLanguages(repoName, repoLanguage) {
               const { data: languages } = await github.rest.repos.listLanguages({
-                owner,
-                repo: repoName
+                owner, repo: repoName
               });
-
-              const detectedLangs = Object.keys(languages);
-              const hasBackend = detectedLangs.some(l => BACKEND_LANGUAGES.has(l));
-
-              const filtered = hasBackend
-                ? detectedLangs.filter(l => !MARKUP_LANGUAGES.has(l)).slice(0, 3)
-                : detectedLangs.slice(0, 3);
-
+              const detected  = Object.keys(languages);
+              const hasBackend = detected.some(l => BACKEND_LANGUAGES.has(l));
+              const filtered  = hasBackend
+                ? detected.filter(l => !MARKUP_LANGUAGES.has(l)).slice(0, 3)
+                : detected.slice(0, 3);
+              console.log(`   ℹ️ Fallback to language detection`);
               return filtered.join(', ') || repoLanguage || 'N/A';
             }
 
@@ -131,38 +262,28 @@ jobs:
             for (const repo of recentRepos) {
               console.log(`\n📝 Processing: ${repo.name}`);
 
-              // 1. Try pom.xml first, fall back to language detection
-              const pomStack  = await getTechStackFromPom(repo.name);
-              const techStack = pomStack ?? await getTechStackFromLanguages(repo.name, repo.language);
+              const fileStack = await getTechStackFromFiles(repo.name, repo.language);
+              const techStack = fileStack ?? await getTechStackFromLanguages(repo.name, repo.language);
               console.log(`   Tech Stack: ${techStack}`);
 
-              // 2. Format date
-              const lastPushDate = new Date(repo.pushed_at);
+              const lastPushDate  = new Date(repo.pushed_at);
               const formattedDate = lastPushDate.toLocaleDateString('en-US', {
-                day: 'numeric',
-                month: 'short',
-                year: 'numeric'
+                day: 'numeric', month: 'short', year: 'numeric'
               });
 
-              // 3. Last commit message
               let lastCommitMsg = '';
               try {
                 const { data: commits } = await github.rest.repos.listCommits({
-                  owner,
-                  repo: repo.name,
-                  per_page: 1
+                  owner, repo: repo.name, per_page: 1
                 });
                 if (commits.length > 0) {
                   lastCommitMsg = commits[0].commit.message.split('\n')[0];
-                  if (lastCommitMsg.length > 60) {
-                    lastCommitMsg = lastCommitMsg.substring(0, 57) + '...';
-                  }
+                  if (lastCommitMsg.length > 60) lastCommitMsg = lastCommitMsg.substring(0, 57) + '...';
                 }
               } catch (error) {
                 console.log(`   ⚠️ Could not fetch commits: ${error.message}`);
               }
 
-              // 4. Build markdown block
               content += `### 🔹 [${repo.name}](${repo.html_url})`;
               if (repo.stargazers_count > 0) content += ` ⭐ ${repo.stargazers_count}`;
               content += `\n`;
@@ -185,27 +306,21 @@ jobs:
             console.log('\n📖 Reading current README...');
 
             const { data: readmeData } = await github.rest.repos.getContent({
-              owner,
-              repo: 'EversonRubira',
-              path: 'README.md'
+              owner, repo: 'EversonRubira', path: 'README.md'
             });
 
-            const readme = Buffer.from(readmeData.content, 'base64').toString('utf-8');
-
+            const readme      = Buffer.from(readmeData.content, 'base64').toString('utf-8');
             const startMarker = '<!-- RECENT_PROJECTS:START -->';
             const endMarker   = '<!-- RECENT_PROJECTS:END -->';
-            const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'g');
+            const regex       = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'g');
 
             if (!regex.test(readme)) {
               console.error('❌ Markers not found in README!');
-              core.setFailed('Markers <!-- RECENT_PROJECTS:START --> and <!-- RECENT_PROJECTS:END --> not found');
+              core.setFailed('Markers not found');
               return;
             }
 
-            const newReadme = readme.replace(
-              regex,
-              `${startMarker}\n${content}${endMarker}`
-            );
+            const newReadme = readme.replace(regex, `${startMarker}\n${content}${endMarker}`);
 
             if (readme === newReadme) {
               console.log('✨ No changes detected. README is already up to date!');
