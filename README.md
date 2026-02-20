@@ -116,13 +116,10 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=EversonRubira&color=blueviolet&label=Profile+Views&style=flat" alt="Profile views"/>
-</p>
+
 
 <p align="center">
-  <a href="https://github.com/EversonRubira">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=EversonRubira&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Stats"/>
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EversonRubira&layout=compact&langs_count=7&theme=github_dark" alt="Top langs"/>
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EversonRubira&theme=react-dark&hide_border=true&area=true&custom_title=Fluxo%20de%20Contribuições" width="700"/>
 </p>
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EversonRubira&theme=github-light&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
