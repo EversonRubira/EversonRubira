@@ -25,45 +25,91 @@ jobs:
           script: |
             const owner = 'EversonRubira';
 
-            // Map GitHub topics to display names for frameworks/databases/tools
-            const TOPIC_DISPLAY_NAMES = {
-              'spring-boot':    'Spring Boot',
-              'spring':         'Spring Boot',
-              'spring-security':'Spring Security',
-              'mysql':          'MySQL',
-              'mongodb':        'MongoDB',
-              'postgresql':     'PostgreSQL',
-              'redis':          'Redis',
-              'docker':         'Docker',
-              'nodejs':         'Node.js',
-              'node':           'Node.js',
-              'express':        'Express',
-              'react':          'React',
-              'angular':        'Angular',
-              'vue':            'Vue.js',
-              'fastapi':        'FastAPI',
-              'django':         'Django',
-              'flask':          'Flask',
-              'hibernate':      'Hibernate',
-              'jpa':            'JPA',
-              'kafka':          'Kafka',
-              'rabbitmq':       'RabbitMQ',
-              'aws':            'AWS',
-              'kubernetes':     'Kubernetes',
-            };
+            // Maps artifactId/groupId fragments found in pom.xml to display names
+            const POM_DEPENDENCY_MAP = [
+              { pattern: /spring-boot/i,              label: 'Spring Boot'      },
+              { pattern: /spring-security/i,          label: 'Spring Security'  },
+              { pattern: /spring-data-jpa/i,          label: 'Spring Data JPA'  },
+              { pattern: /mysql-connector/i,           label: 'MySQL'            },
+              { pattern: /com\.mysql/i,                label: 'MySQL'            },
+              { pattern: /spring-data-mongodb/i,       label: 'MongoDB'          },
+              { pattern: /mongodb-driver/i,            label: 'MongoDB'          },
+              { pattern: /postgresql/i,                label: 'PostgreSQL'       },
+              { pattern: /spring-data-redis/i,         label: 'Redis'            },
+              { pattern: /jedis/i,                     label: 'Redis'            },
+              { pattern: /kafka/i,                     label: 'Kafka'            },
+              { pattern: /rabbitmq|amqp/i,             label: 'RabbitMQ'         },
+              { pattern: /flyway/i,                    label: 'Flyway'           },
+              { pattern: /liquibase/i,                 label: 'Liquibase'        },
+              { pattern: /springdoc|swagger/i,         label: 'Swagger'          },
+              { pattern: /jjwt|java-jwt/i,             label: 'JWT'              },
+              { pattern: /docker/i,                    label: 'Docker'           },
+            ];
 
-            // Languages considered "backend/primary" — HTML/CSS are excluded when these are present
+            // Languages considered backend — markup is hidden when these are present
             const BACKEND_LANGUAGES = new Set([
               'Java', 'Python', 'Go', 'Rust', 'C', 'C++', 'C#',
               'TypeScript', 'JavaScript', 'Kotlin', 'Scala', 'Ruby', 'PHP'
             ]);
 
-            // Languages to hide when a backend language is detected
             const MARKUP_LANGUAGES = new Set(['HTML', 'CSS', 'SCSS', 'Less']);
+
+            // Try to extract tech stack from pom.xml; returns null if not found
+            async function getTechStackFromPom(repoName) {
+              try {
+                const { data: pomData } = await github.rest.repos.getContent({
+                  owner,
+                  repo: repoName,
+                  path: 'pom.xml'
+                });
+
+                const pom = Buffer.from(pomData.content, 'base64').toString('utf-8');
+                console.log(`   ✅ pom.xml found in ${repoName}`);
+
+                // Detect primary language (always Java if pom.xml exists)
+                const stack = ['Java'];
+
+                // Extract all <artifactId> and <groupId> values from dependencies
+                const artifactIds = [...pom.matchAll(/<artifactId>(.*?)<\/artifactId>/g)].map(m => m[1]);
+                const groupIds    = [...pom.matchAll(/<groupId>(.*?)<\/groupId>/g)].map(m => m[1]);
+                const allIds      = [...artifactIds, ...groupIds].join('\n');
+
+                // Match against known patterns (deduplicated)
+                for (const { pattern, label } of POM_DEPENDENCY_MAP) {
+                  if (pattern.test(allIds) && !stack.includes(label)) {
+                    stack.push(label);
+                  }
+                }
+
+                return stack.join(', ');
+              } catch (err) {
+                // 404 = no pom.xml; any other error is also treated as "not found"
+                console.log(`   ℹ️ No pom.xml in ${repoName} — falling back to language detection`);
+                return null;
+              }
+            }
+
+            // Fallback: use GitHub language detection, filtering markup for backend projects
+            async function getTechStackFromLanguages(repoName, repoLanguage) {
+              const { data: languages } = await github.rest.repos.listLanguages({
+                owner,
+                repo: repoName
+              });
+
+              const detectedLangs = Object.keys(languages);
+              const hasBackend = detectedLangs.some(l => BACKEND_LANGUAGES.has(l));
+
+              const filtered = hasBackend
+                ? detectedLangs.filter(l => !MARKUP_LANGUAGES.has(l)).slice(0, 3)
+                : detectedLangs.slice(0, 3);
+
+              return filtered.join(', ') || repoLanguage || 'N/A';
+            }
+
+            // ── Main ────────────────────────────────────────────────────────────
 
             console.log('🔍 Fetching repositories...');
 
-            // Fetch all public repositories sorted by last push
             const { data: repos } = await github.rest.repos.listForUser({
               username: owner,
               sort: 'pushed',
@@ -73,7 +119,6 @@ jobs:
 
             console.log(`📦 Total repositories found: ${repos.length}`);
 
-            // Filter own repositories (not forks) and exclude profile repo
             const recentRepos = repos
               .filter(repo => !repo.fork && repo.name !== 'EversonRubira')
               .slice(0, 4);
@@ -81,47 +126,17 @@ jobs:
             console.log('✅ Selected repositories:');
             recentRepos.forEach(repo => console.log(`   - ${repo.name}`));
 
-            // Generate markdown for each repository
             let content = '';
 
             for (const repo of recentRepos) {
               console.log(`\n📝 Processing: ${repo.name}`);
 
-              // Fetch full repo details (includes topics)
-              const { data: repoDetails } = await github.rest.repos.get({
-                owner,
-                repo: repo.name
-              });
-              const topics = repoDetails.topics || [];
-              console.log(`   Topics: ${topics.join(', ') || '(none)'}`);
-
-              // Fetch repository languages (returns { Language: bytes })
-              const { data: languages } = await github.rest.repos.listLanguages({
-                owner,
-                repo: repo.name
-              });
-
-              // Determine if any backend language is present
-              const detectedLangs = Object.keys(languages);
-              const hasBackend = detectedLangs.some(l => BACKEND_LANGUAGES.has(l));
-
-              // Filter out markup languages if a backend language exists
-              const filteredLangs = hasBackend
-                ? detectedLangs.filter(l => !MARKUP_LANGUAGES.has(l)).slice(0, 2)
-                : detectedLangs.slice(0, 2);
-
-              // Build framework/db list from topics
-              const topicStack = topics
-                .filter(t => TOPIC_DISPLAY_NAMES[t])
-                .map(t => TOPIC_DISPLAY_NAMES[t]);
-
-              // Combine: languages first, then frameworks/databases from topics
-              const combined = [...filteredLangs, ...topicStack];
-              // Deduplicate while preserving order
-              const techStack = [...new Set(combined)].join(', ') || repo.language || 'N/A';
+              // 1. Try pom.xml first, fall back to language detection
+              const pomStack  = await getTechStackFromPom(repo.name);
+              const techStack = pomStack ?? await getTechStackFromLanguages(repo.name, repo.language);
               console.log(`   Tech Stack: ${techStack}`);
 
-              // Format last push date in English
+              // 2. Format date
               const lastPushDate = new Date(repo.pushed_at);
               const formattedDate = lastPushDate.toLocaleDateString('en-US', {
                 day: 'numeric',
@@ -129,7 +144,7 @@ jobs:
                 year: 'numeric'
               });
 
-              // Fetch last commit message
+              // 3. Last commit message
               let lastCommitMsg = '';
               try {
                 const { data: commits } = await github.rest.repos.listCommits({
@@ -147,33 +162,28 @@ jobs:
                 console.log(`   ⚠️ Could not fetch commits: ${error.message}`);
               }
 
-              // Build markdown block
+              // 4. Build markdown block
               content += `### 🔹 [${repo.name}](${repo.html_url})`;
-              if (repo.stargazers_count > 0) {
-                content += ` ⭐ ${repo.stargazers_count}`;
-              }
+              if (repo.stargazers_count > 0) content += ` ⭐ ${repo.stargazers_count}`;
               content += `\n`;
 
               const description = repo.description || 'Backend development project';
               content += `${description}\n\n`;
 
               content += `**Tech Stack:** ${techStack}`;
-              if (repo.forks_count > 0) {
-                content += ` • **Forks:** ${repo.forks_count}`;
-              }
+              if (repo.forks_count > 0) content += ` • **Forks:** ${repo.forks_count}`;
               content += `  \n`;
 
               content += `**Last updated:** ${formattedDate}`;
-              if (lastCommitMsg) {
-                content += `  \n💬 _"${lastCommitMsg}"_`;
-              }
+              if (lastCommitMsg) content += `  \n💬 _"${lastCommitMsg}"_`;
 
               content += `\n\n---\n\n`;
             }
 
+            // ── Update README ───────────────────────────────────────────────────
+
             console.log('\n📖 Reading current README...');
 
-            // Read current README
             const { data: readmeData } = await github.rest.repos.getContent({
               owner,
               repo: 'EversonRubira',
@@ -182,9 +192,8 @@ jobs:
 
             const readme = Buffer.from(readmeData.content, 'base64').toString('utf-8');
 
-            // Replace content between markers
             const startMarker = '<!-- RECENT_PROJECTS:START -->';
-            const endMarker = '<!-- RECENT_PROJECTS:END -->';
+            const endMarker   = '<!-- RECENT_PROJECTS:END -->';
             const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'g');
 
             if (!regex.test(readme)) {
