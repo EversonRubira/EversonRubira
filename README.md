@@ -15,6 +15,15 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [ImplementIQ](https://github.com/EversonRubira/ImplementIQ)
+Backend development project
+
+**Tech Stack:** JavaScript  
+**Last updated:** Feb 21, 2026  
+💬 _"Aumenta logo do footer de 70px para 250px"_
+
+---
+
 ### 🔹 [EuroAmerica-demo](https://github.com/EversonRubira/EuroAmerica-demo)
 Backend development project
 
@@ -39,15 +48,6 @@ Landing Page Profissional
 **Tech Stack:** HTML  
 **Last updated:** Feb 2, 2026  
 💬 _"Merge pull request #6 from EversonRubira/claude/revert-gi..."_
-
----
-
-### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
-O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
-
-**Tech Stack:** Java  
-**Last updated:** Jan 20, 2026  
-💬 _"Refine README documentation and remove filler text"_
 
 ---
 
