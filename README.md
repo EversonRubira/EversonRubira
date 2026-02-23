@@ -19,8 +19,8 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 Backend development project
 
 **Tech Stack:** JavaScript  
-**Last updated:** Feb 21, 2026  
-💬 _"Aumenta logo do footer de 70px para 250px"_
+**Last updated:** Feb 22, 2026  
+💬 _"Reverte fotos de background para URLs originais do Unsplash"_
 
 ---
 
