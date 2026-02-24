@@ -15,6 +15,15 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [Gestao_de_Tarefas-Estudos](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
+Backend development project
+
+**Tech Stack:** Java  
+**Last updated:** Feb 23, 2026  
+💬 _"Adiciona documentacao: README, Manual do Usuario e Manual..."_
+
+---
+
 ### 🔹 [ImplementIQ](https://github.com/EversonRubira/ImplementIQ)
 Backend development project
 
@@ -39,15 +48,6 @@ Backend development project
 **Tech Stack:** HTML, MySQL, Spring Boot  
 **Last updated:** Feb 20, 2026  
 💬 _"Create README.md with project information"_
-
----
-
-### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
-Landing Page Profissional
-
-**Tech Stack:** HTML  
-**Last updated:** Feb 2, 2026  
-💬 _"Merge pull request #6 from EversonRubira/claude/revert-gi..."_
 
 ---
 
