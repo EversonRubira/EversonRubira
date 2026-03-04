@@ -15,21 +15,21 @@ Focused on designing robust APIs, implementing domain-driven solutions, and work
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [ImplementIQ](https://github.com/EversonRubira/ImplementIQ)
+Backend development project
+
+**Tech Stack:** JavaScript  
+**Last updated:** Mar 3, 2026  
+💬 _"Update style.css"_
+
+---
+
 ### 🔹 [Gestao_de_Tarefas-Estudos](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
 Backend development project
 
 **Tech Stack:** Java  
 **Last updated:** Feb 23, 2026  
 💬 _"Adiciona documentacao: README, Manual do Usuario e Manual..."_
-
----
-
-### 🔹 [ImplementIQ](https://github.com/EversonRubira/ImplementIQ)
-Backend development project
-
-**Tech Stack:** JavaScript  
-**Last updated:** Feb 22, 2026  
-💬 _"Reverte fotos de background para URLs originais do Unsplash"_
 
 ---
 
