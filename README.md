@@ -24,30 +24,30 @@ Backend development project
 
 ---
 
-### 🔹 [EuroAmerica-demo](https://github.com/EversonRubira/EuroAmerica-demo)
-Backend development project
-
-**Tech Stack:** HTML, MongoDB, Spring Boot  
-**Last updated:** Feb 20, 2026  
-💬 _"Revise README.md section headings and formatting"_
-
----
-
-### 🔹 [FreightForwarder-Demo](https://github.com/EversonRubira/FreightForwarder-Demo)
-Backend development project
-
-**Tech Stack:** HTML, MySQL, Spring Boot  
-**Last updated:** Feb 20, 2026  
-💬 _"Create README.md with project information"_
-
----
-
 ### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
 Landing Page Profissional
 
 **Tech Stack:** HTML  
 **Last updated:** Feb 2, 2026  
 💬 _"Merge pull request #6 from EversonRubira/claude/revert-gi..."_
+
+---
+
+### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
+O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
+
+**Tech Stack:** Java  
+**Last updated:** Jan 20, 2026  
+💬 _"Refine README documentation and remove filler text"_
+
+---
+
+### 🔹 [Gestao_de_Receitas](https://github.com/EversonRubira/Gestao_de_Receitas)
+Backend development project
+
+**Tech Stack:** JavaScript, EJS  
+**Last updated:** Jan 4, 2026  
+💬 _"Atualizacao implemntacao de Ajax/Fetch"_
 
 ---
 
