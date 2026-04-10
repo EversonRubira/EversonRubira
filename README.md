@@ -17,7 +17,7 @@
 ### 🔹 [split-bills](https://github.com/EversonRubira/split-bills)
 Backend development project
 
-**Tech Stack:** JavaScript  
+**Tech Stack:** JavaScript, React  
 **Last updated:** Mar 22, 2026  
 💬 _"Merge pull request #7 from EversonRubira/claude/add-month..."_
 
@@ -44,7 +44,7 @@ Landing Page Profissional
 ### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
 O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
 
-**Tech Stack:** Java  
+**Tech Stack:** Java, Spring Boot, Spring Security, MySQL, Flyway, Lombok  
 **Last updated:** Jan 20, 2026  
 💬 _"Refine README documentation and remove filler text"_
 
