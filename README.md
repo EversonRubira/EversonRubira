@@ -5,10 +5,9 @@
 # Everson Rubira — Backend Developer
 
 **Building scalable systems with clean architecture principles**
-Career transition: Business Management → Backend Development
-**Backend Developer (Java/Spring Boot) +15 years International Trade Operations | B2B Systems for Import/Export Companies**
+**Backend Developer (Java/Spring Boot) | B2B Systems for International Trade**
 
-Focused on designing robust APIs, implementing domain-driven solutions, and working with modern backend technologies to solve real-world problems.
++15 years in Business Management & International Trade — applying domain expertise and strategic thinking to software architecture and real-world backend solutions.
 
 ---
 
@@ -57,13 +56,13 @@ O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários 
 
 ## Tech Stack & Competencies
 
-**Languages:** Java 17, JavaScript, Python, Go (learning)
+**Languages:** Java 17, JavaScript, Python
 **Backend:** Spring Boot, Spring Security, Node.js, Express
 **Databases:** MySQL, MongoDB
 **Architecture:** Clean Architecture, Domain-Driven Design (DDD), Hexagonal Architecture
 **DevOps & Tools:** Docker, Git, Maven, REST API design
 **Testing:** JUnit, Mockito, Integration Testing, QA automation practices
-**Currently Learning:** Advanced JWT authentication, Go backend development, Docker orchestration
+**Currently exploring:** Go, advanced Docker orchestration, AI-assisted development workflows
 
 <p align="center">
   <img alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
@@ -90,9 +89,9 @@ O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários 
 
 ## Hands-on Experience
 
-**Architectural Patterns:** Implemented Clean Architecture and DDD in production-ready projects, separating domain logic from infrastructure concerns
+**Domain Modeling:** Applied +15 years of trade operations knowledge to design accurate domain models for import/export B2B systems
 **API Development:** Built RESTful APIs with authentication, authorization, and proper error handling
-**Database Design:** Designed normalized relational schemas and optimized NoSQL document structures
+**Database Design:** Designed normalized relational schemas (MySQL) and optimized NoSQL document structures (MongoDB)
 **Testing & Quality:** Developed unit and integration tests following TDD principles, currently advancing in QA automation
 **Version Control:** Git workflows with meaningful commit messages and branch strategies
 
@@ -109,7 +108,7 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 - Docker & AWS Deployment (Alura)
 
 **Previous Career:** +15 years in Business Management & International Trade
-→ Applying strategic thinking, data analysis, and process optimization to software development
+→ Domain expertise directly applied to designing B2B software for import/export operations
 
 ---
 
