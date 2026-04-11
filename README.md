@@ -14,6 +14,24 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [CryptoCurrencyConsult](https://github.com/EversonRubira/CryptoCurrencyConsult) ⭐ 1
+O código em questao é um programa Java que permite ao usuário buscar informações sobre uma criptomoeda.
+
+**Tech Stack:** Java, Spring Boot  
+**Last updated:** Apr 10, 2026  
+💬 _"Revise README with project details and instructions"_
+
+---
+
+### 🔹 [Indice-de-Massa-corporal---IMC](https://github.com/EversonRubira/Indice-de-Massa-corporal---IMC)
+Calculadora de IMC com Tabela de Referência
+
+**Tech Stack:** JavaScript  
+**Last updated:** Apr 10, 2026  
+💬 _"Create README.md"_
+
+---
+
 ### 🔹 [split-bills](https://github.com/EversonRubira/split-bills)
 Backend development project
 
@@ -29,24 +47,6 @@ Backend development project
 **Tech Stack:** Java  
 **Last updated:** Mar 16, 2026  
 💬 _"Merge pull request #2 from EversonRubira/claude/github-ac..."_
-
----
-
-### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
-Landing Page Profissional
-
-**Tech Stack:** HTML  
-**Last updated:** Feb 2, 2026  
-💬 _"Merge pull request #6 from EversonRubira/claude/revert-gi..."_
-
----
-
-### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
-O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
-
-**Tech Stack:** Java, Spring Boot, Spring Security, MySQL, Flyway, Lombok  
-**Last updated:** Jan 20, 2026  
-💬 _"Refine README documentation and remove filler text"_
 
 ---
 
