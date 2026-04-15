@@ -14,6 +14,15 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [split-bills](https://github.com/EversonRubira/split-bills)
+Backend development project
+
+**Tech Stack:** JavaScript, React  
+**Last updated:** Apr 15, 2026  
+💬 _"Merge pull request #9 from EversonRubira/claude/add-month..."_
+
+---
+
 ### 🔹 [CryptoCurrencyConsult](https://github.com/EversonRubira/CryptoCurrencyConsult) ⭐ 1
 O código em questao é um programa Java que permite ao usuário buscar informações sobre uma criptomoeda.
 
@@ -29,15 +38,6 @@ Calculadora de IMC com Tabela de Referência
 **Tech Stack:** JavaScript  
 **Last updated:** Apr 10, 2026  
 💬 _"Create README.md"_
-
----
-
-### 🔹 [split-bills](https://github.com/EversonRubira/split-bills)
-Backend development project
-
-**Tech Stack:** JavaScript, React  
-**Last updated:** Mar 22, 2026  
-💬 _"Merge pull request #7 from EversonRubira/claude/add-month..."_
 
 ---
 
