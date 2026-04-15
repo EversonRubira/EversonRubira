@@ -83,7 +83,6 @@ Backend development project
   <img alt="PostgreSQL" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" style="margin: 0 6px;"/>
   <img alt="Tomcat" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tomcat/tomcat-original-wordmark.svg" style="margin: 0 6px;"/>
 </p>
----
 
 ## Hands-on Experience
 
