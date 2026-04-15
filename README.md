@@ -74,7 +74,6 @@ Backend development project
   <img alt="MySQL" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/> &nbsp;
   <img alt="MongoDB" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/>
   <img alt="Docker" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/> &nbsp;
-  <img alt="Git" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/> &nbsp;
   <img alt="Maven" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"/> &nbsp;
   <img alt="IntelliJ" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"/> &nbsp;
   <img alt="VSCode" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/> &nbsp;
