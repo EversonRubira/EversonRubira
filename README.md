@@ -14,6 +14,15 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [FitCheck](https://github.com/EversonRubira/FitCheck)
+Backend development project
+
+**Tech Stack:** JavaScript, Express, MySQL  
+**Last updated:** Apr 18, 2026  
+💬 _"Update README.md"_
+
+---
+
 ### 🔹 [split-bills](https://github.com/EversonRubira/split-bills)
 Backend development project
 
@@ -38,15 +47,6 @@ Calculadora de IMC com Tabela de Referência
 **Tech Stack:** JavaScript  
 **Last updated:** Apr 10, 2026  
 💬 _"Create README.md"_
-
----
-
-### 🔹 [Gestao_de_Tarefas-Estudos](https://github.com/EversonRubira/Gestao_de_Tarefas-Estudos)
-Backend development project
-
-**Tech Stack:** Java  
-**Last updated:** Mar 16, 2026  
-💬 _"Merge pull request #2 from EversonRubira/claude/github-ac..."_
 
 ---
 
