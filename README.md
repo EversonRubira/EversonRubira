@@ -4,8 +4,7 @@
 
 # Everson Rubira — Backend Developer
 
-**Building scalable systems with clean architecture principles**
-**Backend Developer (Java/Spring Boot) | B2B Systems for International Trade**
+**Backend Developer & QA | Java · Spring Boot · Test Automation | 15+ years in complex operations**
 
 +15 years in Business Management & International Trade — applying domain expertise and strategic thinking to software architecture and real-world backend solutions.
 
@@ -100,7 +99,7 @@ Focus: Backend Development, Software Architecture, Database Systems, QA/Testing
 
 **Specialized Training:**
 - Clean Architecture & DDD (Alura)
-- QA: Processes and Test Automation (Alura, in progress)
+- QA: Processes and Test Automation (Alura, completed Nov 2025)
 - Docker & AWS Deployment (Alura)
 
 **Previous Career:** +15 years in Business Management & International Trade
