@@ -14,11 +14,20 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
+O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
+
+**Tech Stack:** Java, Spring Boot, Spring Security, MySQL, Flyway, JWT, Lombok  
+**Last updated:** Apr 19, 2026  
+💬 _"feat: JWT auth, error handling, REST responses, bug fixes"_
+
+---
+
 ### 🔹 [FitCheck](https://github.com/EversonRubira/FitCheck)
 Backend development project
 
 **Tech Stack:** JavaScript, Express, MySQL  
-**Last updated:** Apr 18, 2026  
+**Last updated:** Apr 19, 2026  
 💬 _"Update README.md"_
 
 ---
@@ -38,15 +47,6 @@ O código em questao é um programa Java que permite ao usuário buscar informa�
 **Tech Stack:** Java, Spring Boot  
 **Last updated:** Apr 10, 2026  
 💬 _"Revise README with project details and instructions"_
-
----
-
-### 🔹 [Indice-de-Massa-corporal---IMC](https://github.com/EversonRubira/Indice-de-Massa-corporal---IMC)
-Calculadora de IMC com Tabela de Referência
-
-**Tech Stack:** JavaScript  
-**Last updated:** Apr 10, 2026  
-💬 _"Create README.md"_
 
 ---
 
