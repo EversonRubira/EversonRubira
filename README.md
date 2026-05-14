@@ -13,6 +13,15 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [python-api-lab](https://github.com/EversonRubira/python-api-lab)
+Claude e Python: desenvolvendo assistentes com a API da Anthropic
+
+**Tech Stack:** Python  
+**Last updated:** May 13, 2026  
+💬 _"add main, categorizador e gitignore"_
+
+---
+
 ### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
 O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
 
@@ -37,15 +46,6 @@ Backend development project
 **Tech Stack:** JavaScript, React  
 **Last updated:** Apr 15, 2026  
 💬 _"Merge pull request #9 from EversonRubira/claude/add-month..."_
-
----
-
-### 🔹 [CryptoCurrencyConsult](https://github.com/EversonRubira/CryptoCurrencyConsult) ⭐ 1
-O código em questao é um programa Java que permite ao usuário buscar informações sobre uma criptomoeda.
-
-**Tech Stack:** Java, Spring Boot  
-**Last updated:** Apr 10, 2026  
-💬 _"Revise README with project details and instructions"_
 
 ---
 
