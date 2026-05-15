@@ -17,8 +17,8 @@
 Claude e Python: desenvolvendo assistentes com a API da Anthropic
 
 **Tech Stack:** Python  
-**Last updated:** May 13, 2026  
-💬 _"add main, categorizador e gitignore"_
+**Last updated:** May 14, 2026  
+💬 _"add identificador_de_perfil"_
 
 ---
 
