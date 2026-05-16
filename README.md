@@ -17,8 +17,8 @@
 Claude e Python: desenvolvendo assistentes com a API da Anthropic
 
 **Tech Stack:** Python  
-**Last updated:** May 14, 2026  
-💬 _"add identificador_de_perfil"_
+**Last updated:** May 15, 2026  
+💬 _"Curso Finalizado"_
 
 ---
 
