@@ -13,6 +13,15 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [RealCheapestFlights](https://github.com/EversonRubira/RealCheapestFlights)
+Backend development project
+
+**Tech Stack:** Python, JavaScript  
+**Last updated:** May 17, 2026  
+💬 _"refactor: backend didatico comentado + frontend premium dark"_
+
+---
+
 ### 🔹 [python-api-lab](https://github.com/EversonRubira/python-api-lab)
 Claude e Python: desenvolvendo assistentes com a API da Anthropic
 
@@ -37,15 +46,6 @@ Backend development project
 **Tech Stack:** JavaScript, Express, MySQL  
 **Last updated:** Apr 19, 2026  
 💬 _"Update README.md"_
-
----
-
-### 🔹 [split-bills](https://github.com/EversonRubira/split-bills)
-Backend development project
-
-**Tech Stack:** JavaScript, React  
-**Last updated:** Apr 15, 2026  
-💬 _"Merge pull request #9 from EversonRubira/claude/add-month..."_
 
 ---
 
