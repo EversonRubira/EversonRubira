@@ -13,6 +13,15 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic)
+LangChain & Python via LLM Anthropic
+
+**Tech Stack:** Python  
+**Last updated:** May 20, 2026  
+💬 _"Primeira chamada a API realizada"_
+
+---
+
 ### 🔹 [RealCheapestFlights](https://github.com/EversonRubira/RealCheapestFlights)
 Backend development project
 
@@ -37,15 +46,6 @@ O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários 
 **Tech Stack:** Java, Spring Boot, Spring Security, MySQL, Flyway, JWT, Lombok  
 **Last updated:** Apr 19, 2026  
 💬 _"feat: JWT auth, error handling, REST responses, bug fixes"_
-
----
-
-### 🔹 [FitCheck](https://github.com/EversonRubira/FitCheck)
-Backend development project
-
-**Tech Stack:** JavaScript, Express, MySQL  
-**Last updated:** Apr 19, 2026  
-💬 _"Update README.md"_
 
 ---
 
