@@ -13,12 +13,21 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [python-api-lab](https://github.com/EversonRubira/python-api-lab)
+Claude e Python: desenvolvendo assistentes com a API da Anthropic
+
+**Tech Stack:** Python  
+**Last updated:** May 21, 2026  
+💬 _"Merge pull request #1 from EversonRubira/claude/complete-..."_
+
+---
+
 ### 🔹 [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic)
 LangChain & Python via LLM Anthropic
 
 **Tech Stack:** Python  
-**Last updated:** May 20, 2026  
-💬 _"Primeira chamada a API realizada"_
+**Last updated:** May 21, 2026  
+💬 _"Merge pull request #2 from EversonRubira/claude/update-re..."_
 
 ---
 
@@ -28,15 +37,6 @@ Backend development project
 **Tech Stack:** Python, JavaScript  
 **Last updated:** May 17, 2026  
 💬 _"refactor: backend didatico comentado + frontend premium dark"_
-
----
-
-### 🔹 [python-api-lab](https://github.com/EversonRubira/python-api-lab)
-Claude e Python: desenvolvendo assistentes com a API da Anthropic
-
-**Tech Stack:** Python  
-**Last updated:** May 15, 2026  
-💬 _"Curso Finalizado"_
 
 ---
 
