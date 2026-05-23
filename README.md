@@ -13,21 +13,21 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic)
+LangChain & Python via LLM Anthropic
+
+**Tech Stack:** Python  
+**Last updated:** May 22, 2026  
+💬 _"Adicionando memoria ao chat com langchain"_
+
+---
+
 ### 🔹 [python-api-lab](https://github.com/EversonRubira/python-api-lab)
 Claude e Python: desenvolvendo assistentes com a API da Anthropic
 
 **Tech Stack:** Python  
 **Last updated:** May 21, 2026  
 💬 _"Merge pull request #1 from EversonRubira/claude/complete-..."_
-
----
-
-### 🔹 [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic)
-LangChain & Python via LLM Anthropic
-
-**Tech Stack:** Python  
-**Last updated:** May 21, 2026  
-💬 _"Merge pull request #2 from EversonRubira/claude/update-re..."_
 
 ---
 
