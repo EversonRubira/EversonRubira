@@ -17,8 +17,8 @@
 LangChain & Python via LLM Anthropic
 
 **Tech Stack:** Python  
-**Last updated:** May 22, 2026  
-💬 _"Adicionando memoria ao chat com langchain"_
+**Last updated:** May 27, 2026  
+💬 _"Add langGraph"_
 
 ---
 
