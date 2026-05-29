@@ -17,8 +17,8 @@
 LangChain & Python via LLM Anthropic
 
 **Tech Stack:** Python  
-**Last updated:** May 27, 2026  
-💬 _"Add langGraph"_
+**Last updated:** May 28, 2026  
+💬 _"curso e aprendizado finalizado"_
 
 ---
 
