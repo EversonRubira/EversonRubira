@@ -13,6 +13,15 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [Alura_EspacialistaAI_Formacao](https://github.com/EversonRubira/Alura_EspacialistaAI_Formacao)
+Inteligência Artificial
+
+**Tech Stack:** N/A  
+**Last updated:** May 29, 2026  
+💬 _"Initial commit"_
+
+---
+
 ### 🔹 [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic)
 LangChain & Python via LLM Anthropic
 
@@ -37,15 +46,6 @@ Backend development project
 **Tech Stack:** Python, JavaScript  
 **Last updated:** May 17, 2026  
 💬 _"refactor: backend didatico comentado + frontend premium dark"_
-
----
-
-### 🔹 [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental)
-O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental. 
-
-**Tech Stack:** Java, Spring Boot, Spring Security, MySQL, Flyway, JWT, Lombok  
-**Last updated:** Apr 19, 2026  
-💬 _"feat: JWT auth, error handling, REST responses, bug fixes"_
 
 ---
 
