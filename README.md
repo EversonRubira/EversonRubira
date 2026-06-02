@@ -13,6 +13,15 @@
 ## Featured Projects
 
 <!-- RECENT_PROJECTS:START -->
+### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
+Landing Page Profissional
+
+**Tech Stack:** HTML  
+**Last updated:** Jun 1, 2026  
+💬 _"Merge pull request #12 from EversonRubira/claude/nifty-me..."_
+
+---
+
 ### 🔹 [Alura_EspacialistaAI_Formacao](https://github.com/EversonRubira/Alura_EspacialistaAI_Formacao)
 Inteligência Artificial
 
@@ -37,15 +46,6 @@ Claude e Python: desenvolvendo assistentes com a API da Anthropic
 **Tech Stack:** Python  
 **Last updated:** May 21, 2026  
 💬 _"Merge pull request #1 from EversonRubira/claude/complete-..."_
-
----
-
-### 🔹 [RealCheapestFlights](https://github.com/EversonRubira/RealCheapestFlights)
-Backend development project
-
-**Tech Stack:** Python, JavaScript  
-**Last updated:** May 17, 2026  
-💬 _"refactor: backend didatico comentado + frontend premium dark"_
 
 ---
 
