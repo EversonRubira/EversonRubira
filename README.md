@@ -17,8 +17,8 @@
 Landing Page Profissional
 
 **Tech Stack:** HTML  
-**Last updated:** Jun 1, 2026  
-💬 _"Merge pull request #12 from EversonRubira/claude/nifty-me..."_
+**Last updated:** Jun 2, 2026  
+💬 _"Atualizar o index.html"_
 
 ---
 
