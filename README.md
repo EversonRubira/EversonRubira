@@ -17,8 +17,8 @@
 Landing Page Profissional
 
 **Tech Stack:** HTML  
-**Last updated:** Jun 2, 2026  
-💬 _"Atualizar o index.html"_
+**Last updated:** Jun 3, 2026  
+💬 _"Remover Rentwatch do portfólio"_
 
 ---
 
