@@ -17,8 +17,8 @@
 Landing Page Profissional
 
 **Tech Stack:** HTML  
-**Last updated:** Jun 3, 2026  
-💬 _"Remover Rentwatch do portfólio"_
+**Last updated:** Jun 4, 2026  
+💬 _"Merge pull request #17 from EversonRubira/claude/laughing..."_
 
 ---
 
