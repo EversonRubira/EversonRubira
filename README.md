@@ -2,9 +2,8 @@
 
 Backend developer em transição — depois de 15 anos liderando operações internacionais, hoje construo sistemas. Foco atual: arquitetura sólida em Java/Python e agentes de IA com LangChain e Claude API.
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" width="26"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" width="26"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://devicons.io/devicons/icons/langchain.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://devicons.io/devicons/icons/claude-icon.svg" width="32"/>
 
-🔗 [eversonrubira.github.io](https://eversonrubira.github.io)
 
 ---
 
@@ -29,4 +28,6 @@ Anthropic Academy — trilha Claude & AI Engineering
 
 ## Contato
 
-[LinkedIn](https://linkedin.com/in/eversonrubira) · [Portfólio](https://eversonrubira.github.io)
+## Contato
+
+<a href="https://linkedin.com/in/eversonrubira"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="22" align="absmiddle"/> LinkedIn</a> &nbsp;·&nbsp; <a href="https://eversonrubira.github.io">🌐 Portfólio</a>
