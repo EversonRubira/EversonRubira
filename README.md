@@ -11,42 +11,12 @@ Backend developer em transição — depois de 15 anos liderando operações int
 ## Projetos
 
 <!-- RECENT_PROJECTS:START -->
-### 🔹 [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io)
-Landing Page Profissional
-
-**Tech Stack:** HTML  
-**Last updated:** Jun 4, 2026  
-💬 _"Merge pull request #17 from EversonRubira/claude/laughing..."_
-
----
-
-### 🔹 [Alura_EspacialistaAI_Formacao](https://github.com/EversonRubira/Alura_EspacialistaAI_Formacao)
-Inteligência Artificial
-
-**Tech Stack:** N/A  
-**Last updated:** May 29, 2026  
-💬 _"Initial commit"_
-
----
-
-### 🔹 [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic)
-LangChain & Python via LLM Anthropic
-
-**Tech Stack:** Python  
-**Last updated:** May 28, 2026  
-💬 _"curso e aprendizado finalizado"_
-
----
-
-### 🔹 [python-api-lab](https://github.com/EversonRubira/python-api-lab)
-Claude e Python: desenvolvendo assistentes com a API da Anthropic
-
-**Tech Stack:** Python  
-**Last updated:** May 21, 2026  
-💬 _"Merge pull request #1 from EversonRubira/claude/complete-..."_
-
----
-
+| Projeto | Descrição | Stack |
+|---|---|---|
+| [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
+| [Alura_EspacialistaAI_Formacao](https://github.com/EversonRubira/Alura_EspacialistaAI_Formacao) | Inteligência Artificial | N/A |
+| [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic) | LangChain & Python via LLM Anthropic | Python |
+| [python-api-lab](https://github.com/EversonRubira/python-api-lab) | Claude e Python: desenvolvendo assistentes com a API da Anthropic | Python |
 <!-- RECENT_PROJECTS:END -->
 
 ---
