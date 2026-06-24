@@ -7,12 +7,12 @@ Backend developer in transition — after 15 years leading international operati
 
 ## Projects
 <!-- RECENT_PROJECTS:START -->
-| Project | Description | Stack |
+| Projeto | Descrição | Stack |
 |---|---|---|
-| [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Professional Landing Page | HTML |
-| [Alura_EspacialistaAI_Formacao](https://github.com/EversonRubira/Alura_EspacialistaAI_Formacao) | AI Specialist Training | N/A |
-| [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic) | LangChain & Python via Anthropic LLM | Python |
-| [python-api-lab](https://github.com/EversonRubira/python-api-lab) | Claude and Python: building assistants with the Anthropic API | Python |
+| [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
+| [Alura_EspacialistaAI_Formacao](https://github.com/EversonRubira/Alura_EspacialistaAI_Formacao) | Inteligência Artificial | N/A |
+| [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic) | LangChain & Python via LLM Anthropic | Python |
+| [python-api-lab](https://github.com/EversonRubira/python-api-lab) | Claude e Python: desenvolvendo assistentes com a API da Anthropic | Python |
 <!-- RECENT_PROJECTS:END -->
 
 ---
