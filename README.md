@@ -1,6 +1,6 @@
 # Everson Rubira
 
-Backend developer em transição — depois de 15 anos liderando operações internacionais, hoje construo sistemas. Foco atual: arquitetura sólida em Java/Python e agentes de IA com LangChain e Claude API.
+Backend developer in transition — after 15 years leading international operations, I now build systems. Current focus: solid architecture in Java/Python and AI agents with LangChain and the Claude API.
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://devicons.io/devicons/icons/langchain.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://devicons.io/devicons/icons/claude-icon.svg" width="32"/>
 
@@ -22,12 +22,10 @@ Backend developer em transição — depois de 15 anos liderando operações int
 
 ## Formação
 
-TeSP em Programação e Sistemas de Informação — Instituto Politécnico de Setúbal (em curso)
-Alura — Clean Architecture & DDD, Spring Boot, LangChain
-Anthropic Academy — trilha Claude & AI Engineering
+* TeSP in Computer Programming and Information Systems — Instituto Politécnico de Setúbal (in progress)<br/>
+* Alura — Clean Architecture & DDD, Spring Boot, LangChain<br/>
+* Anthropic Academy — Claude & AI Engineering track
 
-## Contato
-
-## Contato
+## Contact
 
 <a href="https://linkedin.com/in/eversonrubira"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="22" align="absmiddle"/> LinkedIn</a> &nbsp;·&nbsp; <a href="https://eversonrubira.github.io">🌐 Portfólio</a>
