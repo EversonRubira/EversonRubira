@@ -10,9 +10,9 @@ Backend developer in transition — after 15 years leading international operati
 | Projeto | Descrição | Stack |
 |---|---|---|
 | [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
+| [FitCheck](https://github.com/EversonRubira/FitCheck) | Backend development project | JavaScript, Express, MySQL, Sequelize |
 | [Alura_EspacialistaAI_Formacao](https://github.com/EversonRubira/Alura_EspacialistaAI_Formacao) | Inteligência Artificial | N/A |
 | [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic) | LangChain & Python via LLM Anthropic | Python |
-| [python-api-lab](https://github.com/EversonRubira/python-api-lab) | Claude e Python: desenvolvendo assistentes com a API da Anthropic | Python |
 <!-- RECENT_PROJECTS:END -->
 
 ---
