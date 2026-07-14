@@ -9,10 +9,10 @@ Backend developer in transition — after 15 years leading international operati
 <!-- RECENT_PROJECTS:START -->
 | Projeto | Descrição | Stack |
 |---|---|---|
+| [meeting-analyst](https://github.com/EversonRubira/meeting-analyst) | Meeting Analyst — AI-powered agent that analyzes meeting notes and extracts summaries, decisions, action items and open points. Built with FastAPI, Groq API and vanilla JS. | Python, Procfile |
 | [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
 | [FitCheck](https://github.com/EversonRubira/FitCheck) | Backend development project | JavaScript, Express, MySQL, Sequelize |
 | [Alura_EspacialistaAI_Formacao](https://github.com/EversonRubira/Alura_EspacialistaAI_Formacao) | Inteligência Artificial | N/A |
-| [LangChain-Python-via-LLM-Anthropic](https://github.com/EversonRubira/LangChain-Python-via-LLM-Anthropic) | LangChain & Python via LLM Anthropic | Python |
 <!-- RECENT_PROJECTS:END -->
 
 ---
