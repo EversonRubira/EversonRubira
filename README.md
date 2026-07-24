@@ -9,9 +9,9 @@ Backend developer in transition — after 15 years leading international operati
 <!-- RECENT_PROJECTS:START -->
 | Projeto | Descrição | Stack |
 |---|---|---|
+| [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
 | [meeting-analyst](https://github.com/EversonRubira/meeting-analyst) | Meeting Analyst — AI-powered agent that analyzes meeting notes and extracts summaries, decisions, action items and open points. Built with FastAPI, Groq API and vanilla JS. | Python, Procfile |
 | [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) | O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental.  | Java, Spring Boot, Spring Security, MySQL, Flyway, JWT, Lombok |
-| [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
 | [FitCheck](https://github.com/EversonRubira/FitCheck) | Backend development project | JavaScript, Express, MySQL, Sequelize |
 <!-- RECENT_PROJECTS:END -->
 
