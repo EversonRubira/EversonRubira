@@ -8,9 +8,9 @@ Aspiring Backend Developer — after 15 years leading international operations, 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40"/>
-  <img src="https://devicons.io/devicons/icons/langchain.svg" width="40" height="40"/>
-  <img src="https://devicons.io/devicons/icons/claude-icon.svg" width="40" height="40" style="background:#fff;border-radius:6px;padding:2px;"/>
-  <img src="https://devicons.io/devicons/icons/groq.svg" width="40" height="40" style="background:#F55036;border-radius:6px;padding:2px;"/>
+  <img src="https://cdn.simpleicons.org/langchain/ffffff" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/anthropic/ffffff" width="40" height="40"/>
+  <img src="https://devicons.io/devicons/icons/groq.svg" width="40" height="40" style="background:#fff;border-radius:6px;padding:2px;"/>
 </p>
 
 ---
