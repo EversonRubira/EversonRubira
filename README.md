@@ -2,13 +2,16 @@
 
 Aspiring Backend Developer — after 15 years leading international operations, I now build systems. Current focus: solid architecture in Java/Python, Domain-Driven Design, and AI agents with LangChain and the Claude API.
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="32"/> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="32"/>
-
-<br/>
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=chainlink&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-7C3AED?style=flat&logo=anthropic&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-000000?style=flat&logo=groq&logoColor=white)
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40"/>
+  <img src="https://devicons.io/devicons/icons/langchain.svg" width="40" height="40"/>
+  <img src="https://devicons.io/devicons/icons/claude-icon.svg" width="40" height="40" style="background:#fff;border-radius:6px;padding:2px;"/>
+  <img src="https://devicons.io/devicons/icons/groq.svg" width="40" height="40" style="background:#F55036;border-radius:6px;padding:2px;"/>
+</p>
 
 ---
 
