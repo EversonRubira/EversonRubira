@@ -19,9 +19,9 @@ Aspiring Backend Developer — after 15 years leading international operations, 
 <!-- RECENT_PROJECTS:START -->
 | Projeto | Descrição | Stack |
 |---|---|---|
-| [ArqSync](https://github.com/EversonRubira/ArqSync) | CLI tool that scans Java projects, analyzes architecture (dependencies, cycles, metrics), and stores history for evolution tracking. | N/A |
-| [criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs) | A simple Node.js web application that displays the top 10 cryptocurrencies in real time using the public CoinGecko API. Built for educational purposes with clean code, dynamic views, and no frameworks. | JavaScript |
 | [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
+| [ArqSync](https://github.com/EversonRubira/ArqSync) | CLI tool that scans Java projects, analyzes architecture (dependencies, cycles, metrics), and stores history for evolution tracking. | Java, Spring Boot, PostgreSQL, H2, Flyway |
+| [criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs) | A simple Node.js web application that displays the top 10 cryptocurrencies in real time using the public CoinGecko API. Built for educational purposes with clean code, dynamic views, and no frameworks. | JavaScript |
 | [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) | O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental.  | Java, Spring Boot, Spring Security, MySQL, Flyway, JWT, Lombok |
 <!-- RECENT_PROJECTS:END -->
 
