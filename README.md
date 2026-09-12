@@ -19,10 +19,10 @@ Aspiring Backend Developer — after 15 years leading international operations, 
 <!-- RECENT_PROJECTS:START -->
 | Projeto | Descrição | Stack |
 |---|---|---|
+| [qa-backend-export-tracking](https://github.com/EversonRubira/qa-backend-export-tracking) | Rastreamento de pedidos de exportação com cobertura de testes (JUnit/API/E2E) e triagem de suíte por IA. | N/A |
 | [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
 | [ArqSync](https://github.com/EversonRubira/ArqSync) | CLI tool that scans Java projects, analyzes architecture (dependencies, cycles, metrics), and stores history for evolution tracking. | Java, Spring Boot, PostgreSQL, H2, Flyway |
-| [criptomoedas-nodejs](https://github.com/EversonRubira/criptomoedas-nodejs) | A simple Node.js web application that displays the top 10 cryptocurrencies in real time using the public CoinGecko API. Built for educational purposes with clean code, dynamic views, and no frameworks. | JavaScript |
-| [GestaoSaudeMental](https://github.com/EversonRubira/GestaoSaudeMental) | O Gestão Saúde Mental é uma aplicação projetada para auxiliar os usuários a melhorar seu bem-estar mental.  | Java, Spring Boot, Spring Security, MySQL, Flyway, JWT, Lombok |
+| [absence-portal-ai](https://github.com/EversonRubira/absence-portal-ai) | AI layer for an absence-management portal: LLM-generated executive summaries and natural-language queries over vacation data. Stateless FastAPI backend (Groq/Llama 3.3), designed to plug into an existing frontend without touching its data layer. | Python, FastAPI, Pydantic |
 <!-- RECENT_PROJECTS:END -->
 
 ---
