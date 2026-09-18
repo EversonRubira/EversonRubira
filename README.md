@@ -19,7 +19,7 @@ Aspiring Backend Developer — after 15 years leading international operations, 
 <!-- RECENT_PROJECTS:START -->
 | Projeto | Descrição | Stack |
 |---|---|---|
-| [qa-backend-export-tracking](https://github.com/EversonRubira/qa-backend-export-tracking) | Rastreamento de pedidos de exportação com cobertura de testes (JUnit/API/E2E) e triagem de suíte por IA. | Java, Spring Boot, PostgreSQL, Flyway |
+| [TrackCargo](https://github.com/EversonRubira/TrackCargo) | Rastreamento de pedidos de exportação com cobertura de testes (JUnit/API/E2E) e triagem de suíte por IA. | Java, Spring Boot, PostgreSQL, Flyway |
 | [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
 | [ArqSync](https://github.com/EversonRubira/ArqSync) | CLI tool that scans Java projects, analyzes architecture (dependencies, cycles, metrics), and stores history for evolution tracking. | Java, Spring Boot, PostgreSQL, H2, Flyway |
 | [absence-portal-ai](https://github.com/EversonRubira/absence-portal-ai) | AI layer for an absence-management portal: LLM-generated executive summaries and natural-language queries over vacation data. Stateless FastAPI backend (Groq/Llama 3.3), designed to plug into an existing frontend without touching its data layer. | Python, FastAPI, Pydantic |
