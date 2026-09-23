@@ -1,6 +1,6 @@
 # Everson Rubira
 
-Aspiring Backend Developer — after 15 years leading international operations, I now build systems. Current focus: solid architecture in Java/Python, Domain-Driven Design, and AI agents with LangChain and the Claude API.
+Backend Developer (Java/Spring Boot) & AI Engineering. After 15 years leading international operations, I build systems that solve real problems. Currently shipping production code in Java and Python, applying Domain-Driven Design, and building AI agents with LangChain and the Claude API.
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>
