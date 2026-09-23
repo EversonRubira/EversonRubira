@@ -2,6 +2,16 @@
 
 Backend Developer (Java/Spring Boot) & AI Engineering. After 15 years leading international operations, I build systems that solve real problems. Currently shipping production code in Java and Python, applying Domain-Driven Design, and building AI agents with LangChain and the Claude API.
 
+Stack
+
+Backend: Java, Spring Boot, Python, REST APIs
+AI & Integrations: Claude API, LangChain, LLM Integration
+Databases: MySQL, MongoDB, PostgreSQL
+Testing: JUnit, Postman
+Infrastructure & Automation: Docker, Git/GitHub, Harness
+
+---
+
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/>
