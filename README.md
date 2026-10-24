@@ -29,7 +29,7 @@ Infrastructure & Automation: Docker, Git/GitHub, Harness
 <!-- RECENT_PROJECTS:START -->
 | Projeto | Descrição | Stack |
 |---|---|---|
-| [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | HTML |
+| [eversonrubira.github.io](https://github.com/EversonRubira/eversonrubira.github.io) | Landing Page Profissional | TypeScript, React, Next.js |
 | [TrackCargo](https://github.com/EversonRubira/TrackCargo) | Rastreamento de pedidos de exportação com cobertura de testes (JUnit/API/E2E) e triagem de suíte por IA. | Java, Spring Boot, PostgreSQL, Flyway |
 | [roadmap-ia](https://github.com/EversonRubira/roadmap-ia) | Roadmap de estudos de Engenharia de IA | JavaScript |
 | [Fit-Analizer](https://github.com/EversonRubira/Fit-Analizer) | Backend Java/Spring Boot que analisa fit entre vaga e perfil técnico via Claude API | Java, Spring Boot, PostgreSQL |
